@@ -1,0 +1,41 @@
+{
+  "id": "v3-2",
+  "at": "2026-10-19T13:06:59.665Z",
+  "selfFundedTest": true,
+  "url": "https://api.a2a.family/a/one-rule-world/v1/ask?q=Every+time+someone+says+%22urgent%22%2C+all+their+own+clocks+stop+for+one+hour.+Make+a+world+I+can+play.",
+  "input": "Every time someone says \"urgent\", all their own clocks stop for one hour. Make a world I can play.",
+  "promptHash": "5e50680ab51bfce8807ccf8bab911197b76e9f1b6f52852e031a0b04c8362853",
+  "quote": {
+    "network": "robinhood",
+    "resource": "https://api.a2a.family/a/one-rule-world/v1/ask?q=Every%20time%20someone%20says%20%22urgent%22%2C%20all%20their%20own%20clocks%20stop%20for%20one%20hour.%20Make%20a%20world%20I%20can%20play.",
+    "description": "ONE RULE WORLD: ask",
+    "mimeType": "application/json",
+    "payTo": "0x68B59e4d27b2A717194fB74d697831494108baf9",
+    "maxTimeoutSeconds": 120,
+    "scheme": "a2a-tx",
+    "maxAmountRequired": "10000",
+    "asset": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+    "extra": {
+      "symbol": "USDG",
+      "decimals": 6,
+      "usd": 0.01,
+      "price": 1
+    }
+  },
+  "tx": "0x55609be06482b11eda913cf294a8fdac5c68a5470e99661a775cc7dfec3aad47",
+  "response": {
+    "agent": "ONE RULE WORLD",
+    "answer": "URGENT TIME\nFictional simulation.\n\nLAW: Every time someone says \"urgent\", all their own clocks stop for one hour.\nInterpretation: This applies only to personal timekeeping devices, not to the passage of time itself.\n\nFOUND HERE\nTHE TRANSIT AUTHORITY'S \"URGENT\" COMPLAINT FORM\n*   For reporting delayed transit.\n*   *Do not use this form for non-transit emergencies.*\n*   **Warning:** Submitting this form requires you to state your reason for urgency. Your personal clocks will stop for one hour from the moment of submission.\n*   **Note:** This form does not affect transit schedules.\n\nTHREE PEOPLE, ONE PROBLEM: Anya wants to complain about her train being late, but she needs to know the exact time to catch her next connection. Ben, a transit worker, wants to process complaints efficiently and sees this form as a way to manage customer flow. He knows that submitting the form stops the customer's clocks, making them less likely to harass him about *other* delays. Clara, a passenger who missed her connection because her watch stopped, wants to know why the *system* doesn't just run on time. She believes the form is a pointless bureaucratic hurdle that punishes people for being late. Anya has already submitted a form once this week and is wary of losing track of time again.\n\nYOUR MOVE:\nA: Add a clause to the form stating that transit delays are not affected by the submission. Anya gains clarity on the form's limitations but still risks losing track of time.\nB: Introduce a \"Transit Timekeeper\" service at the station, offering to synchronize personal clocks for a small fee. Ben can manage complaint flow, Anya can manage her connections, but Clara will still argue it's a symptom of a broken system.\nOr make your own move.\n\nSAVE\n```json\n{\"law\":\"Every time someone says \\\"urgent\\\", all their own clocks stop for one hour.\",\"scope\":\"This applies only to personal timekeeping devices, not to the passage of time itself.\",\"artifact\":\"Complaint form: submission stops user's clocks for one hour; does not affect transit.\",\"people\":[\"Anya:wants to complain but needs accurate time\",\"Ben:wants efficient complaint management\",\"Clara:wants system reliability, sees form as a hurdle\"],\"unresolved\":\"Anya has previously lost track of time due to the form.\"}\n```",
+    "model": "google/gemini-2.5-flash-lite"
+  },
+  "transferVerified": {
+    "status": 1,
+    "block": 92637489,
+    "gasUsed": "36899",
+    "gasPrice": "20014000",
+    "gasWei": "738496586000"
+  },
+  "httpStatus": 200,
+  "durationMs": 4554,
+  "paymentResponse": "eyJzdWNjZXNzIjp0cnVlLCJ0cmFuc2FjdGlvbiI6IjB4NTU2MDliZTA2NDgyYjExZWRhOTEzY2YyOTRhOGZkYWM1YzY4YTU0NzBlOTk2NjFhNzc1Y2M3ZGZlYzNhYWQ0NyIsIm5ldHdvcmsiOiJyb2Jpbmhvb2QiLCJwYXllciI6IjB4NjhCNTllNGQyN2IyQTcxNzE5NGZCNzRkNjk3ODMxNDk0MTA4YmFmOSIsInNjaGVtZSI6ImEyYS10eCIsImFzc2V0IjoiVVNERyIsImFtb3VudCI6IjEwMDAwIiwidXNkIjowLjAxLCJibG9jayI6OTI2Mzc0ODksIndvcmtNcyI6MzU0OH0="
+}

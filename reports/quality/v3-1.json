@@ -1,0 +1,41 @@
+{
+  "id": "v3-1",
+  "at": "2026-10-19T13:05:51.970Z",
+  "selfFundedTest": true,
+  "url": "https://api.a2a.family/a/one-rule-world/v1/ask?q=Every+unanswered+question+gains+one+kilogram+each+night.+Make+a+world+I+can+play.",
+  "input": "Every unanswered question gains one kilogram each night. Make a world I can play.",
+  "promptHash": "5e50680ab51bfce8807ccf8bab911197b76e9f1b6f52852e031a0b04c8362853",
+  "quote": {
+    "network": "robinhood",
+    "resource": "https://api.a2a.family/a/one-rule-world/v1/ask?q=Every%20unanswered%20question%20gains%20one%20kilogram%20each%20night.%20Make%20a%20world%20I%20can%20play.",
+    "description": "ONE RULE WORLD: ask",
+    "mimeType": "application/json",
+    "payTo": "0x68B59e4d27b2A717194fB74d697831494108baf9",
+    "maxTimeoutSeconds": 120,
+    "scheme": "a2a-tx",
+    "maxAmountRequired": "10000",
+    "asset": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+    "extra": {
+      "symbol": "USDG",
+      "decimals": 6,
+      "usd": 0.01,
+      "price": 1
+    }
+  },
+  "tx": "0xc0c5654ad5812d5e49750df6605a42fcb6a01fd0a38f40f8d5dad3aba919cba9",
+  "response": {
+    "agent": "ONE RULE WORLD",
+    "answer": "**The Weight of Unasked**\nFictional simulation.\n\nLAW: Every unanswered question gains one kilogram each night. This law applies only to the question itself, not to the person asking it. A question's weight does not affect its asker's mass or create physical space for it.\n\nFOUND HERE\nTHE QUESTION BIN RECEIPT\nThis bin is for questions left unanswered for more than one cycle.\nWeight: [Calculated daily, based on unanswered status.]\nCollection Fee: [One unanswered question, to be placed in the bin.]\nDisposal: [Questions are compressed and recycled into inert matter.]\n*Do not place answered questions here. They will be returned.*\n\nTHREE PEOPLE, ONE PROBLEM: Elara wants to clear her desk of accumulating, heavy questions. She’s been asking her landlord about a leaky pipe for weeks, and the resulting question-mass is now a physical impediment. Finn, a professional question-answerer, sees a business opportunity. He’s willing to pay Elara’s collection fee to take her question off her hands, but he wants to keep the question itself to potentially answer later for profit. Kaelen, a municipal worker, just wants the public spaces clear of these heavy, inert objects. He’s concerned about the logistical nightmare of moving them. Finn’s current offer is a loophole: he’s not answering the question, just taking possession of it, which technically stops its weight gain.\n\nYOUR MOVE:\nA: Accept Finn’s offer. Elara gets her space back, Finn gains a question, and Kaelen has one less object to move. However, the question remains unanswered, and Finn might exploit it.\nB: Pay the collection fee yourself and place the question in the bin. Elara loses the question, Kaelen has one less object, but Finn loses his potential profit.\nOr make your own move.\n\nSAVE\n```json\n{\"law\":\"Every unanswered question gains one kilogram each night.\",\"scope\":\"This law applies only to the question itself, not to the person asking it.\",\"artifact\":\"Question Bin Receipt: fee is one unanswered question, questions are compressed.\",\"people\":[\"Elara:wants clear space\",\"Finn:wants to profit from questions\",\"Kaelen:wants clear public spaces\"],\"unresolved\":\"Finn wants to take possession of unanswered questions without answering them.\"}\n```",
+    "model": "google/gemini-2.5-flash-lite"
+  },
+  "transferVerified": {
+    "status": 1,
+    "block": 92636843,
+    "gasUsed": "36899",
+    "gasPrice": "20034000",
+    "gasWei": "739234566000"
+  },
+  "httpStatus": 200,
+  "durationMs": 5069,
+  "paymentResponse": "eyJzdWNjZXNzIjp0cnVlLCJ0cmFuc2FjdGlvbiI6IjB4YzBjNTY1NGFkNTgxMmQ1ZTQ5NzUwZGY2NjA1YTQyZmNiNmEwMWZkMGEzOGY0MGY4ZDVkYWQzYWJhOTE5Y2JhOSIsIm5ldHdvcmsiOiJyb2Jpbmhvb2QiLCJwYXllciI6IjB4NjhCNTllNGQyN2IyQTcxNzE5NGZCNzRkNjk3ODMxNDk0MTA4YmFmOSIsInNjaGVtZSI6ImEyYS10eCIsImFzc2V0IjoiVVNERyIsImFtb3VudCI6IjEwMDAwIiwidXNkIjowLjAxLCJibG9jayI6OTI2MzY4NDMsIndvcmtNcyI6MzkzM30="
+}

@@ -1,0 +1,41 @@
+{
+  "id": "v2-2",
+  "at": "2026-10-19T13:02:36.483Z",
+  "selfFundedTest": true,
+  "url": "https://api.a2a.family/a/one-rule-world/v1/ask?q=Every+time+someone+says+%22urgent%22%2C+all+their+own+clocks+stop+for+one+hour.+Make+a+world+I+can+play.",
+  "input": "Every time someone says \"urgent\", all their own clocks stop for one hour. Make a world I can play.",
+  "promptHash": "2bad13eab731b8f1bdef49b06e29cb0a181cc9f4cfa9bbc603eb1f0cc58610e6",
+  "quote": {
+    "network": "robinhood",
+    "resource": "https://api.a2a.family/a/one-rule-world/v1/ask?q=Every%20time%20someone%20says%20%22urgent%22%2C%20all%20their%20own%20clocks%20stop%20for%20one%20hour.%20Make%20a%20world%20I%20can%20play.",
+    "description": "ONE RULE WORLD: ask",
+    "mimeType": "application/json",
+    "payTo": "0x68B59e4d27b2A717194fB74d697831494108baf9",
+    "maxTimeoutSeconds": 120,
+    "scheme": "a2a-tx",
+    "maxAmountRequired": "10000",
+    "asset": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+    "extra": {
+      "symbol": "USDG",
+      "decimals": 6,
+      "usd": 0.01,
+      "price": 1
+    }
+  },
+  "tx": "0x6d3817096918decee9033e9c88e35b9d8be35b391d31481db58b1fdd105d54ae",
+  "response": {
+    "agent": "ONE RULE WORLD",
+    "answer": "**LAW** — Every time someone says \"urgent\", all their own clocks stop for one hour.\n\n**LIFE UNDER IT** — Barnaby, a baker, wants to deliver cakes on time and fears the \"urgent\" penalty. Clara, a courier, needs to meet deadlines and often uses the word. Silas, a clockmaker, wants to sell more timepieces.\nClara, rushing a delivery, shouts \"Urgent!\" Her watch stops. She misses the deadline. Barnaby, seeing Clara's stopped watch, refuses her next order, fearing she'll be late. Silas notices people buying more pocket watches, as wristwatches are unreliable.\n\n**FOUND HERE**\nCLARA'S COURIER SERVICE\n\"Urgent\" deliveries may cause delays.\nWe are not responsible for missed appointments or spoiled goods if the courier's personal time is affected.\nPlease plan accordingly.\n\n**YOUR MOVE** — A: Ask Clara to hire a second courier for \"urgent\" jobs; she spreads the risk but doubles her payroll. B: Advise Silas to sell watches with a \"time-sync\" feature that resets them after an hour; he profits from the problem but the watches are only partially reliable. Or make your own move.\n\nSave for the next call:\n```json\n{\"v\":2,\"law\":\"Every time someone says \\\"urgent\\\", all their own clocks stop for one hour.\",\"scope\":\"Personal clocks only.\",\"turn\":1,\"facts\":[\"Barnaby wants timely cake deliveries\",\"Clara needs to meet deadlines\",\"Silas wants to sell more clocks\",\"Clara's \\\"urgent\\\" call caused a missed deadline and lost business for Barnaby\"],\"choices\":[\"A:hire a second courier\",\"B:sell time-sync watches\"]}\n```",
+    "model": "google/gemini-2.5-flash-lite"
+  },
+  "transferVerified": {
+    "status": 1,
+    "block": 92634993,
+    "gasUsed": "36867",
+    "gasPrice": "20144000",
+    "gasWei": "742648848000"
+  },
+  "httpStatus": 200,
+  "durationMs": 5466,
+  "paymentResponse": "eyJzdWNjZXNzIjp0cnVlLCJ0cmFuc2FjdGlvbiI6IjB4NmQzODE3MDk2OTE4ZGVjZWU5MDMzZTljODhlMzViOWQ4YmUzNWIzOTFkMzE0ODFkYjU4YjFmZGQxMDVkNTRhZSIsIm5ldHdvcmsiOiJyb2Jpbmhvb2QiLCJwYXllciI6IjB4NjhCNTllNGQyN2IyQTcxNzE5NGZCNzRkNjk3ODMxNDk0MTA4YmFmOSIsInNjaGVtZSI6ImEyYS10eCIsImFzc2V0IjoiVVNERyIsImFtb3VudCI6IjEwMDAwIiwidXNkIjowLjAxLCJibG9jayI6OTI2MzQ5OTMsIndvcmtNcyI6MzEzNn0="
+}

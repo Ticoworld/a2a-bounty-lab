@@ -1,0 +1,41 @@
+{
+  "id": "baseline-1",
+  "at": "2026-10-19T12:57:05.326Z",
+  "selfFundedTest": true,
+  "url": "https://api.a2a.family/a/one-rule-world/v1/ask?q=Every+unanswered+question+gains+one+kilogram+each+night.+Make+a+world+I+can+play.",
+  "input": "Every unanswered question gains one kilogram each night. Make a world I can play.",
+  "promptHash": "ca76cb4ee048a3c4b61490ddcc1d5a2b924510a8bfb0d087b355b71e0aa86dc8",
+  "quote": {
+    "network": "robinhood",
+    "resource": "https://api.a2a.family/a/one-rule-world/v1/ask?q=Every%20unanswered%20question%20gains%20one%20kilogram%20each%20night.%20Make%20a%20world%20I%20can%20play.",
+    "description": "ONE RULE WORLD: ask",
+    "mimeType": "application/json",
+    "payTo": "0x68B59e4d27b2A717194fB74d697831494108baf9",
+    "maxTimeoutSeconds": 120,
+    "scheme": "a2a-tx",
+    "maxAmountRequired": "10000",
+    "asset": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+    "extra": {
+      "symbol": "USDG",
+      "decimals": 6,
+      "usd": 0.01,
+      "price": 1
+    }
+  },
+  "tx": "0xd4e5a50647f671bd23987e32ca27d80ab55fed0183017bedf1ecd950138e98d6",
+  "response": {
+    "agent": "ONE RULE WORLD",
+    "answer": "Fictional simulation.\n\nLAW: Every unanswered question gains one kilogram each night.\nSCOPE: Questions posed within this simulation's context; weight gain applies only to the question itself, not the asker.\n\nCAST & STAKES:\n*   **Professor Alistair Finch:** Seeks to publish his magnum opus, a definitive encyclopedia of obscure historical trivia. His motive is academic prestige.\n*   **Bartholomew \"Barty\" Higgins:** A struggling proprietor of \"Barty's Books & Baubles,\" a dusty antique shop. He wants to sell off old stock to make rent.\n*   **Silas Croft:** A cynical journalist perpetually chasing a scoop. He needs a sensational story to revive his career.\n*   **Resource:** 100 Kilograms of \"Unanswered Question Mass\" (UQM). This is a tangible, inert substance that accumulates.\n*   **Player Goal:** Successfully resolve three questions without the total UQM exceeding 150 kg.\n\nTHE FIRST CRACK:\nProfessor Finch, desperate to include a section on the mating habits of the Lesser Spotted Dung Beetle, poses a highly specific question to his research assistant: \"What is the precise duration of the Lesser Spotted Dung Beetle's courtship ritual?\" The assistant, overwhelmed and underpaid, does not respond. Overnight, the question gains 1 kg. Finch, finding the question now physically heavier (and thus, he believes, more significant), decides to frame it as a \"weighty historical mystery\" for his book, increasing its perceived value. Barty, seeing the physical mass, tries to sell it as a \"unique geological specimen\" to Silas, who is intrigued by the idea of a \"talking, growing question.\"\n\nFOUND IN THIS WORLD:\n**Barty's Books & Baubles - Receipt**\nDate: [Current Date]\nItem: \"Curious Geological Specimen (Origin: Unknown)\"\nDescription: Dense, fibrous material, approximately 1 kg.\nNotes: Seller claims it asks things. Buyer claims it is heavy.\nPrice: 50 kg UQM (transferred from buyer's available UQM stock)\n*This is a fictional transaction.*\n\nYOUR MOVE:\nYou can intervene in three ways:\nA. **Provide an answer to Professor Finch's question.** Cost: 2 kg UQM (representing the effort of formulating and delivering an answer).\nB. **Purchase the \"specimen\" from Barty.** Cost: 3 kg UQM (representing Barty's asking price).\nC. **Suggest Silas interview Professor Finch directly.** Cost: 1 kg UQM (representing the facilitation of the meeting).\n\nPlease state your choice, or propose a custom move.\n\n```json\n{\"v\":1,\"law\":\"Every unanswered question gains one kilogram each night.\",\"scope\":\"Questions posed within this simulation's context; weight gain applies only to the question itself, not the asker.\",\"turn\":0,\"cast\":[\"Professor Alistair Finch:academic prestige\",\"Bartholomew \\\"Barty\\\" Higgins:sell old stock\",\"Silas Croft:find a scoop\"],\"stock\":{\"unit\":\"Unanswered Question Mass (UQM)\",\"n\":100},\"goal\":\"Successfully resolve three questions without the total UQM exceeding 150 kg.\",\"facts\":[\"Professor Finch posed a question about dung beetle courtship.\",\"The question gained 1 kg overnight.\",\"Barty is attempting to sell the question as a geological specimen to Silas.\",\"Current UQM: 100 kg.\"],\"open\":[\"A:Answer Finch's question,2 kg UQM\",\"B:Buy the \\\"specimen\\\" from Barty,3 kg UQM\",\"C:Facilitate interview between Silas and Finch,1 kg UQM\"]}\n```",
+    "model": "google/gemini-2.5-flash-lite"
+  },
+  "transferVerified": {
+    "status": 1,
+    "block": 92631720,
+    "gasUsed": "36776",
+    "gasPrice": "20052000",
+    "gasWei": "737432352000"
+  },
+  "httpStatus": 200,
+  "durationMs": 5146,
+  "paymentResponse": "eyJzdWNjZXNzIjp0cnVlLCJ0cmFuc2FjdGlvbiI6IjB4ZDRlNWE1MDY0N2Y2NzFiZDIzOTg3ZTMyY2EyN2Q4MGFiNTVmZWQwMTgzMDE3YmVkZjFlY2Q5NTAxMzhlOThkNiIsIm5ldHdvcmsiOiJyb2Jpbmhvb2QiLCJwYXllciI6IjB4NjhCNTllNGQyN2IyQTcxNzE5NGZCNzRkNjk3ODMxNDk0MTA4YmFmOSIsInNjaGVtZSI6ImEyYS10eCIsImFzc2V0IjoiVVNERyIsImFtb3VudCI6IjEwMDAwIiwidXNkIjowLjAxLCJibG9jayI6OTI2MzE3MjAsIndvcmtNcyI6MzgxOH0="
+}

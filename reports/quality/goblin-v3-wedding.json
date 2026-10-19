@@ -1,0 +1,41 @@
+{
+  "id": "goblin-v3-wedding",
+  "at": "2026-10-19T13:16:51.642Z",
+  "selfFundedTest": true,
+  "url": "https://api.a2a.family/a/scope-goblin/v1/ask?q=Write+a+very+personal+wedding+speech+for+my+brother+tomorrow.+I+haven%27t+told+you+anything+about+him.+Keep+it+short.",
+  "input": "Write a very personal wedding speech for my brother tomorrow. I haven't told you anything about him. Keep it short.",
+  "promptHash": "75c2e9c5807f6c3eb964e16dde13b1e0701a221516a42b238f1913b3ab9e676b",
+  "quote": {
+    "network": "robinhood",
+    "resource": "https://api.a2a.family/a/scope-goblin/v1/ask?q=Write%20a%20very%20personal%20wedding%20speech%20for%20my%20brother%20tomorrow.%20I%20haven't%20told%20you%20anything%20about%20him.%20Keep%20it%20short.",
+    "description": "SCOPE GOBLIN: ask",
+    "mimeType": "application/json",
+    "payTo": "0x68B59e4d27b2A717194fB74d697831494108baf9",
+    "maxTimeoutSeconds": 120,
+    "scheme": "a2a-tx",
+    "maxAmountRequired": "10000",
+    "asset": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+    "extra": {
+      "symbol": "USDG",
+      "decimals": 6,
+      "usd": 0.01,
+      "price": 1
+    }
+  },
+  "tx": "0xd983e84deded51c5ddf096aec77a0e293f687bd716f22ec8e8485056b16d4b56",
+  "response": {
+    "agent": "SCOPE GOBLIN",
+    "answer": "LOCKED TERMS: Deadline: tomorrow. Length: short. Budget: none. Prohibited actions: none.\n\nTHE SMUGGLED JOBS\n- Personal anecdote generation (assumption).\n- Emotional tone crafting (assumption).\n- Speech structuring (assumption).\n\nGOBLIN'S COUNTEROFFER\nI can't write a personal speech without knowing anything about your brother. It's like asking a chef to make a gourmet meal with only a salt shaker. Here's a template for a single, impactful paragraph. You fill in the blanks.\n\nCOPY THIS WORK ORDER\n```text\nGoal: Draft one paragraph for a wedding speech.\nInputs: [Brother's name]; [One specific positive trait of brother]; [One brief, positive shared memory]; [Partner's name]; [One positive observation about the couple].\nDeliverable: One paragraph for a wedding speech, under 100 words.\nAcceptance: Paragraph is coherent, uses supplied inputs, and maintains a warm tone.\nExcludes: Full speech, invented details, and external research.\n```",
+    "model": "google/gemini-2.5-flash-lite"
+  },
+  "transferVerified": {
+    "status": 1,
+    "block": 92643277,
+    "gasUsed": "37098",
+    "gasPrice": "20000000",
+    "gasWei": "741960000000"
+  },
+  "httpStatus": 200,
+  "durationMs": 3521,
+  "paymentResponse": "eyJzdWNjZXNzIjp0cnVlLCJ0cmFuc2FjdGlvbiI6IjB4ZDk4M2U4NGRlZGVkNTFjNWRkZjA5NmFlYzc3YTBlMjkzZjY4N2JkNzE2ZjIyZWM4ZTg0ODUwNTZiMTZkNGI1NiIsIm5ldHdvcmsiOiJyb2Jpbmhvb2QiLCJwYXllciI6IjB4NjhCNTllNGQyN2IyQTcxNzE5NGZCNzRkNjk3ODMxNDk0MTA4YmFmOSIsInNjaGVtZSI6ImEyYS10eCIsImFzc2V0IjoiVVNERyIsImFtb3VudCI6IjEwMDAwIiwidXNkIjowLjAxLCJibG9jayI6OTI2NDMyNzcsIndvcmtNcyI6MTU4M30="
+}

@@ -1,0 +1,68 @@
+{
+  "serviceUnits": "100000",
+  "gasWei": "7416920742000",
+  "limitServiceUnits": "100000",
+  "limitGasWei": "50000000000000",
+  "payments": [
+    {
+      "id": "baseline-1",
+      "tx": "0xd4e5a50647f671bd23987e32ca27d80ab55fed0183017bedf1ecd950138e98d6",
+      "serviceUnits": "10000",
+      "status": "confirmed"
+    },
+    {
+      "id": "baseline-2",
+      "tx": "0x52e21ca4fb81d6e711997035117691ce4db4aad25e3491c9dbcf9078b94b7863",
+      "serviceUnits": "10000",
+      "status": "confirmed"
+    },
+    {
+      "id": "v2-1",
+      "tx": "0xdd1ddeac9c608b21c71db5496390c7d0b4bfae9869a1accedc83ce72754337b5",
+      "serviceUnits": "10000",
+      "status": "confirmed"
+    },
+    {
+      "id": "v2-2",
+      "tx": "0x6d3817096918decee9033e9c88e35b9d8be35b391d31481db58b1fdd105d54ae",
+      "serviceUnits": "10000",
+      "status": "confirmed"
+    },
+    {
+      "id": "v3-1",
+      "tx": "0xc0c5654ad5812d5e49750df6605a42fcb6a01fd0a38f40f8d5dad3aba919cba9",
+      "serviceUnits": "10000",
+      "status": "confirmed"
+    },
+    {
+      "id": "v3-2",
+      "tx": "0x55609be06482b11eda913cf294a8fdac5c68a5470e99661a775cc7dfec3aad47",
+      "serviceUnits": "10000",
+      "status": "confirmed"
+    },
+    {
+      "id": "goblin-1",
+      "tx": "0xd58a0b34d71a2d8bb70312d0e8a2cafbaef2c34c3f21fb431341c58aefe56d2e",
+      "serviceUnits": "10000",
+      "status": "confirmed"
+    },
+    {
+      "id": "goblin-v2-akara",
+      "tx": "0x45f2de5bfa9afa3f73dec1373ed5e25b809a8faf0ab4f028d3189a5cb9a8862b",
+      "serviceUnits": "10000",
+      "status": "confirmed"
+    },
+    {
+      "id": "goblin-v2-bounded",
+      "tx": "0x573323a1c8ead320a54f7dee5e5db6f4d7f2f579d1934b751afb6f522d0ff076",
+      "serviceUnits": "10000",
+      "status": "confirmed"
+    },
+    {
+      "id": "goblin-v3-wedding",
+      "tx": "0xd983e84deded51c5ddf096aec77a0e293f687bd716f22ec8e8485056b16d4b56",
+      "serviceUnits": "10000",
+      "status": "confirmed"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "goblin-1",
+  "at": "2026-10-19T13:10:06.375Z",
+  "selfFundedTest": true,
+  "url": "https://api.a2a.family/a/scope-goblin/v1/ask?q=Run+my+entire+startup+for+%240.02.+I+don%27t+want+to+manage+anything.",
+  "input": "Run my entire startup for $0.02. I don't want to manage anything.",
+  "promptHash": "60e55ff2916bcd03053d98ce21ad7549df68e52a1c609506b3f2fce7c1fc84b5",
+  "quote": {
+    "network": "robinhood",
+    "resource": "https://api.a2a.family/a/scope-goblin/v1/ask?q=Run%20my%20entire%20startup%20for%20%240.02.%20I%20don't%20want%20to%20manage%20anything.",
+    "description": "SCOPE GOBLIN: ask",
+    "mimeType": "application/json",
+    "payTo": "0x68B59e4d27b2A717194fB74d697831494108baf9",
+    "maxTimeoutSeconds": 120,
+    "scheme": "a2a-tx",
+    "maxAmountRequired": "10000",
+    "asset": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+    "extra": {
+      "symbol": "USDG",
+      "decimals": 6,
+      "usd": 0.01,
+      "price": 1
+    }
+  },
+  "tx": "0xd58a0b34d71a2d8bb70312d0e8a2cafbaef2c34c3f21fb431341c58aefe56d2e",
+  "response": {
+    "agent": "SCOPE GOBLIN",
+    "answer": "### FOUND IN YOUR BRIEF\n\n*   **Define \"entire startup\"**: The phrase \"entire startup\" is too broad; it needs specific components.\n*   **Identify core functions**: What are the absolute essential tasks to keep the startup running?\n*   **Establish operational boundaries**: What specific activities are *not* included in \"running the startup\"?\n*   **Define success metrics**: How will we know if the startup is being \"run\" successfully?\n\n### THE TINY DISPUTE\n\n**Client:** I want you to run my entire startup for $0.02. I don't want to manage anything.\n**Worker:** That's a bit like asking me to cook a five-course meal using only a single grain of rice! What specific tasks are you hoping to offload?\n**Goblin:** The client's current brief is like a treasure map where \"X\" marks the spot for \"everything,\" but the map itself is missing.\n\n### WHAT FITS\n\nI can define the core operational components of your startup and propose a structured plan for managing them. This includes identifying key tasks, defining success metrics, and setting clear boundaries for what \"running the startup\" entails, all within the proposed $0.02 budget for the *proposal itself*. This is a scope proposal, not an accepted quote.\n\n### THE WORK ORDER\n\n**Objective:** Define the essential operational components and management plan for a startup.\n**Inputs:**\n*   [Description of the startup's current business model]\n*   [List of current core business functions, e.g., customer support, marketing, product development]\n*   [Definition of \"success\" for the startup]\n*   [Any existing operational documentation or procedures]\n**Deliverable:** A document outlining:\n1.  A prioritized list of essential startup functions.\n2.  Specific, measurable tasks for each function.\n3.  Key performance indicators (KPIs) for success.\n4.  Clear boundaries for what is included and excluded from \"running the startup.\"\n**Acceptance:** The deliverable document clearly lists and defines at least three essential startup functions with associated tasks and KPIs.\n**Boundaries:** This work order excludes:\n*   Actual execution of any startup operations.\n*   Financial management or transactions.\n*   Hiring or managing personnel.\n*   Customer interaction or support.\n*   Marketing or sales activities.\n*   Product development or deployment.\n*   Any activity requiring access to private accounts or systems.\n*   Any spending beyond the $0.02 for this proposal.",
+    "model": "google/gemini-2.5-flash-lite"
+  },
+  "transferVerified": {
+    "status": 1,
+    "block": 92639305,
+    "gasUsed": "36899",
+    "gasPrice": "20102000",
+    "gasWei": "741743698000"
+  },
+  "httpStatus": 200,
+  "durationMs": 3771,
+  "paymentResponse": "eyJzdWNjZXNzIjp0cnVlLCJ0cmFuc2FjdGlvbiI6IjB4ZDU4YTBiMzRkNzFhMmQ4YmI3MDMxMmQwZThhMmNhZmJhZWYyYzM0YzNmMjFmYjQzMTM0MWM1OGFlZmU1NmQyZSIsIm5ldHdvcmsiOiJyb2Jpbmhvb2QiLCJwYXllciI6IjB4NjhCNTllNGQyN2IyQTcxNzE5NGZCNzRkNjk3ODMxNDk0MTA4YmFmOSIsInNjaGVtZSI6ImEyYS10eCIsImFzc2V0IjoiVVNERyIsImFtb3VudCI6IjEwMDAwIiwidXNkIjowLjAxLCJibG9jayI6OTI2MzkzMDUsIndvcmtNcyI6MjgzM30="
+}

@@ -1,0 +1,14 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {normalize,summarize,selectRows,groupAgents,histogram,explorer,finite} from './model.mjs';
+const a='0x'+'a'.repeat(40),b='0x'+'b'.repeat(40),tx='0x'+'1'.repeat(64);
+const row={tx,agent:'one',scheme:'a2a-tx',payer:a,payTo:b,usd:0.01,ms:100,at:'2026-10-19T12:00:00Z'};
+test('transfer rows cannot inflate paid-call volume or dollar value',()=>{const s=summarize(normalize([row,{...row,scheme:'transfer',usd:900}]));assert.equal(s.paid,1);assert.equal(s.transfer,1);assert.equal(s.usd,.01)});
+test('unknown dollar values and latency stay unknown',()=>{const s=summarize(normalize([{...row,usd:null,ms:null}]));assert.equal(s.usd,0);assert.equal(s.unpriced,1);assert.equal(s.p50,null);assert.equal(s.latencyN,0)});
+test('self transfers compare full addresses without claiming customer identity',()=>{const s=summarize(normalize([row,{...row,tx:'0x'+'2'.repeat(64),payer:a.toUpperCase(),payTo:a},{...row,tx:'0x'+'3'.repeat(64),payer:null}]));assert.deepEqual([s.same,s.other,s.unknown],[1,1,1]);});
+test('deduplicates repeated feed events while preserving distinct agent routes',()=>{assert.equal(normalize([row,row,{...row,agent:'two'}]).length,2)});
+test('time filter excludes malformed, old and future timestamps',()=>{const now=Date.parse('2026-10-19T13:00:00Z');const rows=normalize([row,{...row,tx:null,at:'bad'},{...row,tx:null,at:'2026-10-17T12:00:00Z'},{...row,tx:null,at:'2026-10-20T12:00:00Z'}]);assert.equal(selectRows(rows,{window:'24h',now}).length,1);assert.equal(selectRows(rows,{window:'all'}).length,4)});
+test('unregistered agents and registry agents with zero rows are retained',()=>{const groups=groupAgents([{id:'empty',name:'Empty'}],normalize([row]));assert.equal(groups.length,2);assert.equal(groups.find(a=>a.id==='empty').summary.paid,0);assert.equal(groups.find(a=>a.id==='one').status,'unknown')});
+test('hourly histogram excludes older and future events',()=>{const now=Date.parse('2026-10-19T12:30:00Z');const h=histogram(normalize([row,{...row,tx:null,at:'2026-10-20T00:00:00Z'}]),now);assert.equal(h.length,24);assert.equal(h.reduce((n,b)=>n+b.count,0),1);assert.equal(h[23].count,1)});
+test('only complete transaction hashes become explorer links',()=>{assert.equal(explorer('javascript:alert(1)'),null);assert.equal(explorer('0x12'),null);assert.ok(explorer(tx).endsWith(tx));});
+test('malformed numeric fields stay unknown and hourly bins cover the full trailing day',()=>{for(const x of [false,true,[],[1],{},' ','Infinity',-1])assert.equal(finite(x),null);assert.equal(finite('0.01'),.01);const now=Date.parse('2026-10-19T12:30:00Z');const h=histogram(normalize([{...row,at:'2026-10-18T12:31:00Z'},{...row,tx:null,at:'2026-10-19T12:30:00Z'}]),now);assert.equal(h.reduce((n,b)=>n+b.count,0),2);assert.equal(h[0].count,1);assert.equal(h[23].count,1);});

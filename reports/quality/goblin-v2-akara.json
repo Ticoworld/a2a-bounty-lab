@@ -1,0 +1,41 @@
+{
+  "id": "goblin-v2-akara",
+  "at": "2026-10-19T13:12:24.773Z",
+  "selfFundedTest": true,
+  "url": "https://api.a2a.family/a/scope-goblin/v1/ask?q=Make+my+grandmother%27s+akara+shop+go+viral+by+Friday.+I+have+six+photos.+I+won%27t+post+every+day.",
+  "input": "Make my grandmother's akara shop go viral by Friday. I have six photos. I won't post every day.",
+  "promptHash": "b3ba80aaf32db1c7f32c8da34f42ee16dfb18c80538cca6e0925dc3dc830dca5",
+  "quote": {
+    "network": "robinhood",
+    "resource": "https://api.a2a.family/a/scope-goblin/v1/ask?q=Make%20my%20grandmother's%20akara%20shop%20go%20viral%20by%20Friday.%20I%20have%20six%20photos.%20I%20won't%20post%20every%20day.",
+    "description": "SCOPE GOBLIN: ask",
+    "mimeType": "application/json",
+    "payTo": "0x68B59e4d27b2A717194fB74d697831494108baf9",
+    "maxTimeoutSeconds": 120,
+    "scheme": "a2a-tx",
+    "maxAmountRequired": "10000",
+    "asset": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+    "extra": {
+      "symbol": "USDG",
+      "decimals": 6,
+      "usd": 0.01,
+      "price": 1
+    }
+  },
+  "tx": "0x45f2de5bfa9afa3f73dec1373ed5e25b809a8faf0ab4f028d3189a5cb9a8862b",
+  "response": {
+    "agent": "SCOPE GOBLIN",
+    "answer": "THE SMUGGLED JOBS\n- Social media campaign planning hides inside 'go viral'.\n- Content calendar creation hides inside 'won't post every day'.\n- Photo curation hides inside 'six photos'.\n\nGOBLIN'S COUNTEROFFER\nYour grandmother's akara shop is now the CEO of \"going viral.\" I'll start by selecting the best photo for a single post. The rest will have to wait for the viral wave to recede.\n\nCOPY THIS WORK ORDER\n```text\nGoal: Prepare one social media post for akara shop.\nInputs: Six photos; [target audience]; [posting platform].\nDeliverable: One curated photo and caption for a single post.\nAcceptance: Photo is clear and relevant; caption is engaging and includes shop name; post is formatted for the specified platform.\nExcludes: Daily posting, campaign strategy, viral outcome guarantee and all other photos.\n```",
+    "model": "google/gemini-2.5-flash-lite"
+  },
+  "transferVerified": {
+    "status": 1,
+    "block": 92640668,
+    "gasUsed": "37098",
+    "gasPrice": "20000000",
+    "gasWei": "741960000000"
+  },
+  "httpStatus": 200,
+  "durationMs": 2805,
+  "paymentResponse": "eyJzdWNjZXNzIjp0cnVlLCJ0cmFuc2FjdGlvbiI6IjB4NDVmMmRlNWJmYTlhZmEzZjczZGVjMTM3M2VkNWUyNWI4MDlhOGZhZjBhYjRmMDI4ZDMxODlhNWNiOWE4ODYyYiIsIm5ldHdvcmsiOiJyb2Jpbmhvb2QiLCJwYXllciI6IjB4NjhCNTllNGQyN2IyQTcxNzE5NGZCNzRkNjk3ODMxNDk0MTA4YmFmOSIsInNjaGVtZSI6ImEyYS10eCIsImFzc2V0IjoiVVNERyIsImFtb3VudCI6IjEwMDAwIiwidXNkIjowLjAxLCJibG9jayI6OTI2NDA2NjgsIndvcmtNcyI6MTU0MH0="
+}

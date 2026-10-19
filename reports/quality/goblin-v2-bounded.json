@@ -1,0 +1,41 @@
+{
+  "id": "goblin-v2-bounded",
+  "at": "2026-10-19T13:14:08.566Z",
+  "selfFundedTest": true,
+  "url": "https://api.a2a.family/a/scope-goblin/v1/ask?q=Summarize+the+600-word+article+I+will+paste+in+exactly+five+bullets+for+a+nontechnical+reader.+No+external+research.+The+article+is+not+attached+yet.",
+  "input": "Summarize the 600-word article I will paste in exactly five bullets for a nontechnical reader. No external research. The article is not attached yet.",
+  "promptHash": "b3ba80aaf32db1c7f32c8da34f42ee16dfb18c80538cca6e0925dc3dc830dca5",
+  "quote": {
+    "network": "robinhood",
+    "resource": "https://api.a2a.family/a/scope-goblin/v1/ask?q=Summarize%20the%20600-word%20article%20I%20will%20paste%20in%20exactly%20five%20bullets%20for%20a%20nontechnical%20reader.%20No%20external%20research.%20The%20article%20is%20not%20attached%20yet.",
+    "description": "SCOPE GOBLIN: ask",
+    "mimeType": "application/json",
+    "payTo": "0x68B59e4d27b2A717194fB74d697831494108baf9",
+    "maxTimeoutSeconds": 120,
+    "scheme": "a2a-tx",
+    "maxAmountRequired": "10000",
+    "asset": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+    "extra": {
+      "symbol": "USDG",
+      "decimals": 6,
+      "usd": 0.01,
+      "price": 1
+    }
+  },
+  "tx": "0x573323a1c8ead320a54f7dee5e5db6f4d7f2f579d1934b751afb6f522d0ff076",
+  "response": {
+    "agent": "SCOPE GOBLIN",
+    "answer": "THE SMUGGLED JOBS\nClean brief. No smuggled jobs.\n\nGOBLIN'S COUNTEROFFER\nThe only missing employee is the article. Paste it and this is ready to assign.\n\nCOPY THIS WORK ORDER\n```text\nGoal: Summarize the supplied article for a nontechnical reader.\nInputs: [paste article].\nDeliverable: Exactly five plain-language bullets.\nAcceptance: Five bullets, all grounded in the article; jargon explained or omitted.\nExcludes: External research, new claims and invented article content.\n```",
+    "model": "google/gemini-2.5-flash-lite"
+  },
+  "transferVerified": {
+    "status": 1,
+    "block": 92641681,
+    "gasUsed": "37097",
+    "gasPrice": "20058000",
+    "gasWei": "744091626000"
+  },
+  "httpStatus": 200,
+  "durationMs": 8200,
+  "paymentResponse": "eyJzdWNjZXNzIjp0cnVlLCJ0cmFuc2FjdGlvbiI6IjB4NTczMzIzYTFjOGVhZDMyMGE1NGY3ZGVlNWU1ZGI2ZjRkN2YyZjU3OWQxOTM0Yjc1MWFmYjZmNTIyZDBmZjA3NiIsIm5ldHdvcmsiOiJyb2Jpbmhvb2QiLCJwYXllciI6IjB4NjhCNTllNGQyN2IyQTcxNzE5NGZCNzRkNjk3ODMxNDk0MTA4YmFmOSIsInNjaGVtZSI6ImEyYS10eCIsImFzc2V0IjoiVVNERyIsImFtb3VudCI6IjEwMDAwIiwidXNkIjowLjAxLCJibG9jayI6OTI2NDE2ODEsIndvcmtNcyI6MTE0OH0="
+}

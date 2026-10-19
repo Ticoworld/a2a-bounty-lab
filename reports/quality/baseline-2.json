@@ -1,0 +1,41 @@
+{
+  "id": "baseline-2",
+  "at": "2026-10-19T12:59:43.028Z",
+  "selfFundedTest": true,
+  "url": "https://api.a2a.family/a/one-rule-world/v1/ask?q=Every+time+someone+says+%22urgent%22%2C+all+their+own+clocks+stop+for+one+hour.+Make+a+world+I+can+play.",
+  "input": "Every time someone says \"urgent\", all their own clocks stop for one hour. Make a world I can play.",
+  "promptHash": "ca76cb4ee048a3c4b61490ddcc1d5a2b924510a8bfb0d087b355b71e0aa86dc8",
+  "quote": {
+    "network": "robinhood",
+    "resource": "https://api.a2a.family/a/one-rule-world/v1/ask?q=Every%20time%20someone%20says%20%22urgent%22%2C%20all%20their%20own%20clocks%20stop%20for%20one%20hour.%20Make%20a%20world%20I%20can%20play.",
+    "description": "ONE RULE WORLD: ask",
+    "mimeType": "application/json",
+    "payTo": "0x68B59e4d27b2A717194fB74d697831494108baf9",
+    "maxTimeoutSeconds": 120,
+    "scheme": "a2a-tx",
+    "maxAmountRequired": "10000",
+    "asset": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+    "extra": {
+      "symbol": "USDG",
+      "decimals": 6,
+      "usd": 0.01,
+      "price": 1
+    }
+  },
+  "tx": "0x52e21ca4fb81d6e711997035117691ce4db4aad25e3491c9dbcf9078b94b7863",
+  "response": {
+    "agent": "ONE RULE WORLD",
+    "answer": "Fictional simulation.\n\nLAW: Every time someone says \"urgent\", all their own personal clocks stop for one hour.\nSCOPE: This applies to all timekeeping devices owned or directly controlled by the speaker. It does not affect ambient time or the clocks of others.\n\nCAST & STAKES:\n*   **Barnaby:** A courier, desperate to meet his delivery deadlines.\n*   **Celia:** A watchmaker, proud of her precise timepieces.\n*   **Darius:** A clock enthusiast, who collects antique timepieces.\n*   **Resource:** 12 hours of \"clock time\" (represented as small, tangible tokens). Each inhabitant starts with 3 tokens, representing the total time their personal clocks can collectively run before needing a reset.\n*   **Player Goal:** Successfully deliver a package across town within 3 hours of *ambient* time, ensuring Barnaby's clocks do not stop for more than 1 hour total during the attempt.\n\nTHE FIRST CRACK:\nBarnaby, needing to rush a package, exclaims \"This is urgent!\" His personal watch and the timer on his delivery scooter immediately freeze for one hour. He can still move and interact, but his internal sense of time and his devices are stuck. He might try to compensate by estimating time, or by asking others for the time, but any device he *personally* uses will be affected. The loophole is that he can still *hear* the time from others or observe ambient conditions, but his own measurement tools are compromised.\n\nFOUND IN THIS WORLD:\n**Barnaby's Delivery Log (Partial Entry)**\n*   \"Package pickup: 09:00 (ambient). My watch read 09:00.\"\n*   \"Exclaimed 'urgent' at 09:15 (ambient). Watch froze. Scooter timer froze.\"\n*   \"Arrived at Elm Street: 10:05 (ambient). My watch still read 09:15. Scooter timer read 09:15.\"\n*   \"Current ambient time: 10:05. My clocks will resume at 10:15.\"\n*   \"Estimated travel time: 50 minutes ambient. Actual clock time elapsed on my devices: 0 minutes.\"\n\nYOUR MOVE:\nYou can intervene in two ways:\nA. **Provide Barnaby with a non-personal timekeeping device:** Spend 1 hour token to give Barnaby access to a public clock tower's time display for the duration of his trip. Cost: 1 hour token.\nB. **Negotiate a time-sharing agreement:** Spend 0 hour tokens to attempt to persuade Celia or Darius to lend Barnaby their personal timepieces for the duration of his trip, with the understanding that they will be unable to rely on their own clocks during that period. Cost: 0 hour tokens.\n\nCustom moves are welcome; their cost will be disclosed before any irreversible spend.\n\n```json\n{\"v\":1,\"law\":\"Every time someone says \\\"urgent\\\", all their own personal clocks stop for one hour.\",\"scope\":\"Applies to personally owned or controlled timekeeping devices. Does not affect ambient time or others' clocks.\",\"turn\":0,\"cast\":[\"Barnaby:meet delivery deadlines\",\"Celia:maintain precise timepieces\",\"Darius:collect antique clocks\"],\"stock\":{\"unit\":\"hour token\",\"n\":12},\"goal\":\"Deliver package within 3 ambient hours, with Barnaby's clocks stopped for <= 1 hour total.\",\"facts\":[\"Barnaby has just said \\\"urgent\\\" and his clocks are stopped for 1 hour ambient.\",\"Barnaby's personal clocks have 3 tokens each, total 9 tokens available for future use.\",\"Ambient time is 09:15.\"],\"open\":[\"A:Public clock tower access,1 token\",\"B:Negotiate time-sharing,0 tokens\"]}\n```",
+    "model": "google/gemini-2.5-flash-lite"
+  },
+  "transferVerified": {
+    "status": 1,
+    "block": 92633274,
+    "gasUsed": "36867",
+    "gasPrice": "20250000",
+    "gasWei": "746556750000"
+  },
+  "httpStatus": 200,
+  "durationMs": 7852,
+  "paymentResponse": "eyJzdWNjZXNzIjp0cnVlLCJ0cmFuc2FjdGlvbiI6IjB4NTJlMjFjYTRmYjgxZDZlNzExOTk3MDM1MTE3NjkxY2U0ZGI0YWFkMjVlMzQ5MWM5ZGJjZjkwNzhiOTRiNzg2MyIsIm5ldHdvcmsiOiJyb2Jpbmhvb2QiLCJwYXllciI6IjB4NjhCNTllNGQyN2IyQTcxNzE5NGZCNzRkNjk3ODMxNDk0MTA4YmFmOSIsInNjaGVtZSI6ImEyYS10eCIsImFzc2V0IjoiVVNERyIsImFtb3VudCI6IjEwMDAwIiwidXNkIjowLjAxLCJibG9jayI6OTI2MzMyNzQsIndvcmtNcyI6NTc4M30="
+}
