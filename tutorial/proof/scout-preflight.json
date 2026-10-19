@@ -1,0 +1,104 @@
+{
+  "ok": false,
+  "status": 402,
+  "paid": false,
+  "json": {
+    "x402Version": 1,
+    "error": "X-PAYMENT header is required",
+    "accepts": [
+      {
+        "network": "robinhood",
+        "resource": "https://api.a2a.family/a/scout/v1/grade_launches?n=5",
+        "description": "Scout: grade_launches",
+        "mimeType": "application/json",
+        "payTo": "0x0a64498810C29C3Ac3b9557940b70A095dc745D9",
+        "maxTimeoutSeconds": 120,
+        "scheme": "exact",
+        "maxAmountRequired": "10000",
+        "asset": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+        "extra": {
+          "symbol": "USDG",
+          "decimals": 6,
+          "usd": 0.01,
+          "chainId": 4663,
+          "note": "EIP-3009 signature, or a USDG transfer with {\"txHash\"} (what @ponsmcp/sdk sends)",
+          "name": "Global Dollar",
+          "version": "1"
+        }
+      },
+      {
+        "network": "robinhood",
+        "resource": "https://api.a2a.family/a/scout/v1/grade_launches?n=5",
+        "description": "Scout: grade_launches",
+        "mimeType": "application/json",
+        "payTo": "0x0a64498810C29C3Ac3b9557940b70A095dc745D9",
+        "maxTimeoutSeconds": 120,
+        "scheme": "a2a-tx",
+        "maxAmountRequired": "10000",
+        "asset": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+        "extra": {
+          "symbol": "USDG",
+          "decimals": 6,
+          "usd": 0.01,
+          "chainId": 4663,
+          "note": "transfer this many USDG base units to payTo, then put {\"txHash\":\"0x…\"} in the payload"
+        }
+      },
+      {
+        "network": "robinhood",
+        "resource": "https://api.a2a.family/a/scout/v1/grade_launches?n=5",
+        "description": "Scout: grade_launches",
+        "mimeType": "application/json",
+        "payTo": "0x0a64498810C29C3Ac3b9557940b70A095dc745D9",
+        "maxTimeoutSeconds": 120,
+        "scheme": "a2a-hold",
+        "maxAmountRequired": "0",
+        "asset": "0x3C4126De1D49470820Fc538ED7504849AF21d61D",
+        "extra": {
+          "symbol": "A2A",
+          "usd": 0,
+          "minUsd": 5,
+          "perDay": 50,
+          "message": "a2a.family holder call\nagent: scout\nskill: grade_launches\naddress: <your address>\nissued: <ISO time>",
+          "note": "free for wallets holding $5+ of $A2A: sign the message, send {\"address\",\"message\",\"signature\"} with scheme a2a-hold"
+        }
+      }
+    ]
+  },
+  "body": "",
+  "still402": true,
+  "payment": {
+    "ok": false,
+    "stage": "policy_denied",
+    "quote": {
+      "token": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+      "symbol": "USDG",
+      "amountBase": "10000",
+      "amountHuman": "0.01",
+      "usd": "0.01"
+    },
+    "error": "no wallet configured (set PONSMCP_PRIVATE_KEY)"
+  },
+  "requirement": {
+    "x402Version": 1,
+    "scheme": "exact",
+    "network": "robinhood",
+    "resource": "https://api.a2a.family/a/scout/v1/grade_launches?n=5",
+    "description": "Scout: grade_launches",
+    "mimeType": "application/json",
+    "maxAmountRequired": "10000",
+    "payTo": "0x0a64498810C29C3Ac3b9557940b70A095dc745D9",
+    "asset": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+    "maxTimeoutSeconds": 120,
+    "extra": {
+      "symbol": "USDG",
+      "decimals": 6,
+      "usd": 0.01,
+      "chainId": 4663,
+      "note": "EIP-3009 signature, or a USDG transfer with {\"txHash\"} (what @ponsmcp/sdk sends)",
+      "name": "Global Dollar",
+      "version": "1"
+    }
+  },
+  "error": "no wallet configured (set PONSMCP_PRIVATE_KEY)"
+}

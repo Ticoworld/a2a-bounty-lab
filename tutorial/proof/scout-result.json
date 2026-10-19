@@ -1,0 +1,146 @@
+{
+  "at": "2026-10-19T14:11:18.780Z",
+  "sdkVersion": "2.3.1",
+  "address": "0x68b59e4d27b2a717194fb74d697831494108baf9",
+  "url": "https://api.a2a.family/a/scout/v1/grade_launches?n=5",
+  "result": {
+    "ok": true,
+    "status": 200,
+    "paid": true,
+    "still402": false,
+    "payment": {
+      "ok": true,
+      "stage": "confirmed",
+      "quote": {
+        "token": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+        "symbol": "USDG",
+        "amountBase": "10000",
+        "amountHuman": "0.01",
+        "usd": "0.01"
+      },
+      "txHash": "0x3f822291443b4b1f50411f502854d7fcdd4111f7e43b8afd2a1eb52d762cf525",
+      "explorer": "https://robinhoodchain.blockscout.com/tx/0x3f822291443b4b1f50411f502854d7fcdd4111f7e43b8afd2a1eb52d762cf525",
+      "blockNumber": "92675058",
+      "gasUsed": "48254",
+      "transfers": [
+        {
+          "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168",
+          "from": "0x68b59e4d27b2a717194fb74d697831494108baf9",
+          "to": "0x0a64498810c29c3ac3b9557940b70a095dc745d9",
+          "amountHuman": "0.01"
+        }
+      ]
+    },
+    "requirement": {
+      "x402Version": 1,
+      "scheme": "exact",
+      "network": "robinhood",
+      "resource": "https://api.a2a.family/a/scout/v1/grade_launches?n=5",
+      "description": "Scout: grade_launches",
+      "mimeType": "application/json",
+      "maxAmountRequired": "10000",
+      "payTo": "0x0a64498810C29C3Ac3b9557940b70A095dc745D9",
+      "asset": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+      "maxTimeoutSeconds": 120,
+      "extra": {
+        "symbol": "USDG",
+        "decimals": 6,
+        "usd": 0.01,
+        "chainId": 4663,
+        "note": "EIP-3009 signature, or a USDG transfer with {\"txHash\"} (what @ponsmcp/sdk sends)",
+        "name": "Global Dollar",
+        "version": "1"
+      }
+    },
+    "json": {
+      "rule": "grade by bonding-curve progress: A >= 50% or graduated, B >= 20%, C >= 5%, else D",
+      "head": 92675091,
+      "launches": [
+        {
+          "token": "0xFFEC1A873543fD44cdC287d309e623b596082769",
+          "curve": "0x160a5C24bcbFB8bF03BfF7a61c34723D5d59479E",
+          "deployer": "0xec409474F23a7Ff5d8b501f17b2ACF426CA9595F",
+          "name": "Sandhood",
+          "symbol": "SANDHOOD",
+          "pairToken": "0x0000000000000000000000000000000000000000",
+          "ageSec": 32,
+          "progress": 2.53,
+          "raised": "106320359173877861",
+          "graduated": false,
+          "grade": "D",
+          "block": 92674830
+        },
+        {
+          "token": "0xB987640017c804876921E0FdAa7490e668E68504",
+          "curve": "0x49Fd9Cab708De77358A1fEdCF3536201c9625B0c",
+          "deployer": "0x12a1d7c809B8bfA7e81dB096B98CE10634d2E8e7",
+          "name": "Cotty",
+          "symbol": "COTTY",
+          "pairToken": "0x0000000000000000000000000000000000000000",
+          "ageSec": 92,
+          "progress": 0.4,
+          "raised": "16883018078486254",
+          "graduated": false,
+          "grade": "D",
+          "block": 92674245
+        },
+        {
+          "token": "0x9E06Ec7eBD8F901d6Db6314430292D10956C30A4",
+          "curve": "0xB7e2BD15C6d2e9782CE42E289c6AFc2A17b61AA4",
+          "deployer": "0x64e6f56dE999078488aC9E304204eA8F8CA95548",
+          "name": "Kelve",
+          "symbol": "KELVX",
+          "pairToken": "0x0000000000000000000000000000000000000000",
+          "ageSec": 105,
+          "progress": 1.85,
+          "raised": "77693063232076766",
+          "graduated": false,
+          "grade": "D",
+          "block": 92674116
+        },
+        {
+          "token": "0xb1646BBad8C458715f56aFEA5373bbA54D6F2220",
+          "curve": "0x48d266bca6bB409f83085Befa0F470D7E3911772",
+          "deployer": "0x9cAb8Efe16739b5a076bE864EC67aDaE940c7fEa",
+          "name": "Justice for Bitcoin",
+          "symbol": "BTC",
+          "pairToken": "0xCEC185eB182c47d1bA1EFc84e6959e18cd620Be4",
+          "ageSec": 123,
+          "progress": 0,
+          "raised": "0",
+          "graduated": false,
+          "grade": "D",
+          "block": 92673938
+        },
+        {
+          "token": "0x61Ee7BB9bc65ff608a61A49154D58a0cF5e8d10C",
+          "curve": "0x700671881975EaA299f9f7229c3aE98B8Bd90142",
+          "deployer": "0x7B6446b51cf0F9F563114b1536649821dFEFACfb",
+          "name": "PHARAOH",
+          "symbol": "PHARA",
+          "pairToken": "0x0000000000000000000000000000000000000000",
+          "ageSec": 127,
+          "progress": 0,
+          "raised": "137625223853121",
+          "graduated": false,
+          "grade": "D",
+          "block": 92673896
+        }
+      ]
+    },
+    "body": "{\n  \"rule\": \"grade by bonding-curve progress: A >= 50% or graduated, B >= 20%, C >= 5%, else D\",\n  \"head\": 92675091,\n  \"launches\": [\n    {\n      \"token\": \"0xFFEC1A873543fD44cdC287d309e623b596082769\",\n      \"curve\": \"0x160a5C24bcbFB8bF03BfF7a61c34723D5d59479E\",\n      \"deployer\": \"0xec409474F23a7Ff5d8b501f17b2ACF426CA9595F\",\n      \"name\": \"Sandhood\",\n      \"symbol\": \"SANDHOOD\",\n      \"pairToken\": \"0x0000000000000000000000000000000000000000\",\n      \"ageSec\": 32,\n      \"progress\": 2.53,\n      \"raised\": \"106320359173877861\",\n      \"graduated\": false,\n      \"grade\": \"D\",\n      \"block\": 92674830\n    },\n    {\n      \"token\": \"0xB987640017c804876921E0FdAa7490e668E68504\",\n      \"curve\": \"0x49Fd9Cab708De77358A1fEdCF3536201c9625B0c\",\n      \"deployer\": \"0x12a1d7c809B8bfA7e81dB096B98CE10634d2E8e7\",\n      \"name\": \"Cotty\",\n      \"symbol\": \"COTTY\",\n      \"pairToken\": \"0x0000000000000000000000000000000000000000\",\n      \"ageSec\": 92,\n      \"progress\": 0.4,\n      \"raised\": \"16883018078486254\",\n      \"graduated\": false,\n      \"grade\": \"D\",\n      \"block\": 92674245\n    },\n    {\n      \"token\": \"0x9E06Ec7eBD8F901d6Db6314430292D10956C30A4\",\n      \"curve\": \"0xB7e2BD15C6d2e9782CE42E289c6AFc2A17b61AA4\",\n      \"deployer\": \"0x64e6f56dE999078488aC9E304204eA8F8CA95548\",\n      \"name\": \"Kelve\",\n      \"symbol\": \"KELVX\",\n      \"pairToken\": \"0x0000000000000000000000000000000000000000\",\n      \"ageSec\": 105,\n      \"progress\": 1.85,\n      \"raised\": \"77693063232076766\",\n      \"graduated\": false,\n      \"grade\": \"D\",\n      \"block\": 92674116\n    },\n    {\n      \"token\": \"0xb1646BBad8C458715f56aFEA5373bbA54D6F2220\",\n      \"curve\": \"0x48d266bca6bB409f83085Befa0F470D7E3911772\",\n      \"deployer\": \"0x9cAb8Efe16739b5a076bE864EC67aDaE940c7fEa\",\n      \"name\": \"Justice for Bitcoin\",\n      \"symbol\": \"BTC\",\n      \"pairToken\": \"0xCEC185eB182c47d1bA1EFc84e6959e18cd620Be4\",\n      \"ageSec\": 123,\n      \"progress\": 0,\n      \"raised\": \"0\",\n      \"graduated\": false,\n      \"grade\": \"D\",\n      \"block\": 92673938\n    },\n    {\n      \"token\": \"0x61Ee7BB9bc65ff608a61A49154D58a0cF5e8d10C\",\n      \"curve\": \"0x700671881975EaA299f9f7229c3aE98B8Bd90142\",\n      \"deployer\": \"0x7B6446b51cf0F9F563114b1536649821dFEFACfb\",\n      \"name\": \"PHARAOH\",\n      \"symbol\": \"PHARA\",\n      \"pairToken\": \"0x0000000000000000000000000000000000000000\",\n      \"ageSec\": 127,\n      \"progress\": 0,\n      \"raised\": \"137625223853121\",\n      \"graduated\": false,\n      \"grade\": \"D\",\n      \"block\": 92673896\n    }\n  ]\n}"
+  },
+  "receiptVerified": true,
+  "gasWei": "995287004000",
+  "block": "0x5861bf2",
+  "independentReceiptCheck": {
+    "chainId": 4663,
+    "status": 1,
+    "block": 92675058,
+    "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168",
+    "from": "0x68b59e4d27b2a717194fb74d697831494108baf9",
+    "to": "0x0a64498810c29c3ac3b9557940b70a095dc745d9",
+    "amountBase": "10000",
+    "gasWei": "995287004000"
+  }
+}

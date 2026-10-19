@@ -1,0 +1,41 @@
+{
+  "id": "human-support",
+  "at": "2026-10-19T13:58:30.441Z",
+  "selfFundedTest": true,
+  "url": "https://api.a2a.family/a/the-human-clause/v1/ask?q=I+want+to+automate+customer+support+for+my+small+online+shop%2C+but+I+don%27t+want+angry+customers+trapped+talking+to+bots.",
+  "input": "I want to automate customer support for my small online shop, but I don't want angry customers trapped talking to bots.",
+  "promptHash": "7047ac0895521ff33168606d774f8d049299016d340858ecb862f43a926ce556",
+  "quote": {
+    "network": "robinhood",
+    "resource": "https://api.a2a.family/a/the-human-clause/v1/ask?q=I%20want%20to%20automate%20customer%20support%20for%20my%20small%20online%20shop%2C%20but%20I%20don't%20want%20angry%20customers%20trapped%20talking%20to%20bots.",
+    "description": "THE HUMAN CLAUSE: ask",
+    "mimeType": "application/json",
+    "payTo": "0x68B59e4d27b2A717194fB74d697831494108baf9",
+    "maxTimeoutSeconds": 120,
+    "scheme": "a2a-tx",
+    "maxAmountRequired": "10000",
+    "asset": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+    "extra": {
+      "symbol": "USDG",
+      "decimals": 6,
+      "usd": 0.01,
+      "price": 1
+    }
+  },
+  "tx": "0x44bc6a482a4f75c44312c9c826eb1b613b4cf83061e2346adc06ad03b9b45eb6",
+  "response": {
+    "agent": "THE HUMAN CLAUSE",
+    "answer": "THE HUMAN CLAUSE: The polite bot\nFictional reverse CAPTCHA. Choose three; there is no universal right answer.\n\nTERMS: No angry customers trapped talking to bots.\n\nSELECT THREE BOXES THAT DESCRIBE WHAT YOU WILL ACTUALLY DO\n| 1. Bot handles common FAQs | 2. Bot offers human transfer | 3. Bot apologizes for delays |\n|---|---|---|\n| 4. Bot uses only positive words | 5. Bot wears a tiny hat | 6. Bot asks for feedback first |\n| 7. Bot limits chat duration | 8. Bot summarizes issues for human | 9. Bot offers a discount code |\n\nTHE TENSION: Automating support can increase efficiency, but it risks alienating customers if the experience feels impersonal or unhelpful. Balancing speed with empathy is a key challenge.\n\nYOUR MOVE: Reply with three numbers and this card. I'll turn your choices into a concrete agreement an agent could work from. You can also rewrite a box.",
+    "model": "google/gemini-2.5-flash-lite"
+  },
+  "transferVerified": {
+    "status": 1,
+    "block": 92667654,
+    "gasUsed": "36734",
+    "gasPrice": "20310000",
+    "gasWei": "746067540000"
+  },
+  "httpStatus": 200,
+  "durationMs": 12733,
+  "paymentResponse": "eyJzdWNjZXNzIjp0cnVlLCJ0cmFuc2FjdGlvbiI6IjB4NDRiYzZhNDgyYTRmNzVjNDQzMTJjOWM4MjZlYjFiNjEzYjRjZjgzMDYxZTIzNDZhZGMwNmFkMDNiOWI0NWViNiIsIm5ldHdvcmsiOiJyb2Jpbmhvb2QiLCJwYXllciI6IjB4NjhCNTllNGQyN2IyQTcxNzE5NGZCNzRkNjk3ODMxNDk0MTA4YmFmOSIsInNjaGVtZSI6ImEyYS10eCIsImFzc2V0IjoiVVNERyIsImFtb3VudCI6IjEwMDAwIiwidXNkIjowLjAxLCJibG9jayI6OTI2Njc2NTQsIndvcmtNcyI6MjI3MX0="
+}

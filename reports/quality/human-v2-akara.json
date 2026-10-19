@@ -1,0 +1,41 @@
+{
+  "id": "human-v2-akara",
+  "at": "2026-10-19T14:05:26.134Z",
+  "selfFundedTest": true,
+  "url": "https://api.a2a.family/a/the-human-clause/v1/ask?q=Make+my+grandmother%27s+akara+shop+go+viral+by+Friday.+I+have+six+photos.+I+won%27t+post+every+day.",
+  "input": "Make my grandmother's akara shop go viral by Friday. I have six photos. I won't post every day.",
+  "promptHash": "e4f9cc417d1ba458f35e22ca6a5fbaef866751f6f27c65358c589679ec4159da",
+  "quote": {
+    "network": "robinhood",
+    "resource": "https://api.a2a.family/a/the-human-clause/v1/ask?q=Make%20my%20grandmother's%20akara%20shop%20go%20viral%20by%20Friday.%20I%20have%20six%20photos.%20I%20won't%20post%20every%20day.",
+    "description": "THE HUMAN CLAUSE: ask",
+    "mimeType": "application/json",
+    "payTo": "0x68B59e4d27b2A717194fB74d697831494108baf9",
+    "maxTimeoutSeconds": 120,
+    "scheme": "a2a-tx",
+    "maxAmountRequired": "10000",
+    "asset": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+    "extra": {
+      "symbol": "USDG",
+      "decimals": 6,
+      "usd": 0.01,
+      "price": 1
+    }
+  },
+  "tx": "0x6a6908b93bc3bc8ac1e57e0d8011c44d211d49627cd11d2a76c8a62b0223b7f2",
+  "response": {
+    "agent": "THE HUMAN CLAUSE",
+    "answer": "THE HUMAN CLAUSE: Akara shop virality\nFictional reverse CAPTCHA. Choose three priorities; the other six wait. Fixed terms still apply. There is no universal right answer.\n\nTERMS: Won't post every day.\n\nSELECT THREE BOXES THAT DESCRIBE WHAT YOU WILL ACTUALLY DO\n| 1. I will ask for the best photo | 2. I will identify one viral hook | 3. I will draft a posting schedule |\n|---|---|---|\n| 4. I will write a catchy caption | 5. I will research trending sounds | 6. I will create a \"behind-the-scenes\" story |\n| 7. I will ask for customer testimonials | 8. I will invent a secret ingredient | 9. I will offer a limited-time discount |\n\nTHE TENSION: Identifying a viral hook (2) requires understanding what makes content shareable, while researching trending sounds (5) focuses on platform-specific tactics. Prioritizing one might mean missing out on the other's potential reach.\n\nYOUR MOVE: Reply with three numbers and this card. I'll turn your choices into a concrete agreement an agent could work from. You can also rewrite a box.",
+    "model": "google/gemini-2.5-flash-lite"
+  },
+  "transferVerified": {
+    "status": 1,
+    "block": 92671656,
+    "gasUsed": "36734",
+    "gasPrice": "20428000",
+    "gasWei": "750402152000"
+  },
+  "httpStatus": 200,
+  "durationMs": 2231,
+  "paymentResponse": "eyJzdWNjZXNzIjp0cnVlLCJ0cmFuc2FjdGlvbiI6IjB4NmE2OTA4YjkzYmMzYmM4YWMxZTU3ZTBkODAxMWM0NGQyMTFkNDk2MjdjZDExZDJhNzZjOGE2MmIwMjIzYjdmMiIsIm5ldHdvcmsiOiJyb2Jpbmhvb2QiLCJwYXllciI6IjB4NjhCNTllNGQyN2IyQTcxNzE5NGZCNzRkNjk3ODMxNDk0MTA4YmFmOSIsInNjaGVtZSI6ImEyYS10eCIsImFzc2V0IjoiVVNERyIsImFtb3VudCI6IjEwMDAwIiwidXNkIjowLjAxLCJibG9jayI6OTI2NzE2NTYsIndvcmtNcyI6MTk0NH0="
+}

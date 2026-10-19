@@ -1,0 +1,195 @@
+{
+  "at": "2026-10-19T14:18:02.213Z",
+  "packageVersion": "2.3.1",
+  "mode": "--pay",
+  "server": {
+    "name": "ponsmcp",
+    "version": "2.3.1"
+  },
+  "tools": [
+    "pons_chain_info",
+    "pons_quote",
+    "x402_fetch",
+    "pons_tx_status"
+  ],
+  "quote": {
+    "usd": "0.01",
+    "chain": 4663,
+    "token": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+    "symbol": "USDG",
+    "amountBase": "10000",
+    "amountHuman": "0.01",
+    "allChains": [
+      {
+        "chainId": 4663,
+        "name": "Robinhood Chain",
+        "settlementAsset": "USDG",
+        "settlementToken": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+        "amountBase": "10000",
+        "amountHuman": "0.01",
+        "status": "active"
+      },
+      {
+        "chainId": 8453,
+        "name": "Base",
+        "settlementAsset": "USDC",
+        "settlementToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "amountBase": "10000",
+        "amountHuman": "0.01",
+        "status": "beta"
+      }
+    ],
+    "note": "quote only — nothing executed"
+  },
+  "call": {
+    "ok": true,
+    "status": 200,
+    "paid": true,
+    "still402": false,
+    "payment": {
+      "ok": true,
+      "stage": "confirmed",
+      "quote": {
+        "token": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+        "symbol": "USDG",
+        "amountBase": "10000",
+        "amountHuman": "0.01",
+        "usd": "0.01"
+      },
+      "txHash": "0xcc38e82a63e946434836f830d8f26a5e66fcec0ce4780def52dc1ac1c9c16b6a",
+      "explorer": "https://robinhoodchain.blockscout.com/tx/0xcc38e82a63e946434836f830d8f26a5e66fcec0ce4780def52dc1ac1c9c16b6a",
+      "blockNumber": "92679189",
+      "gasUsed": "48254",
+      "transfers": [
+        {
+          "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168",
+          "from": "0x68b59e4d27b2a717194fb74d697831494108baf9",
+          "to": "0x0a64498810c29c3ac3b9557940b70a095dc745d9",
+          "amountHuman": "0.01"
+        }
+      ]
+    },
+    "requirement": {
+      "x402Version": 1,
+      "scheme": "exact",
+      "network": "robinhood",
+      "resource": "https://api.a2a.family/a/scout/v1/grade_launches?n=5",
+      "description": "Scout: grade_launches",
+      "mimeType": "application/json",
+      "maxAmountRequired": "10000",
+      "payTo": "0x0a64498810C29C3Ac3b9557940b70A095dc745D9",
+      "asset": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+      "maxTimeoutSeconds": 120,
+      "extra": {
+        "symbol": "USDG",
+        "decimals": 6,
+        "usd": 0.01,
+        "chainId": 4663,
+        "note": "EIP-3009 signature, or a USDG transfer with {\"txHash\"} (what @ponsmcp/sdk sends)",
+        "name": "Global Dollar",
+        "version": "1"
+      }
+    },
+    "json": {
+      "rule": "grade by bonding-curve progress: A >= 50% or graduated, B >= 20%, C >= 5%, else D",
+      "head": 92679192,
+      "launches": [
+        {
+          "token": "0x0139E9b02bEF5f9A5FC98853C8B8D3A385f866E7",
+          "curve": "0xe845b1B2E432bDECFD53f2491253a0732B9b64eE",
+          "deployer": "0x7a146F8caA85dB621b220Db4e490aa611bBCd3D3",
+          "name": "Quorix",
+          "symbol": "QRIX",
+          "pairToken": "0x0000000000000000000000000000000000000000",
+          "ageSec": 11,
+          "progress": 3.58,
+          "raised": "150401767505234480",
+          "graduated": false,
+          "grade": "D",
+          "block": 92679128
+        },
+        {
+          "token": "0xED5E6889c92Eb26292Edfb28704dF54Db74cd706",
+          "curve": "0x1BAF30E6A02C6b5770c404106ED567f78f230ed8",
+          "deployer": "0xC065666d3108f877BeF3E94345aF2591d13F78ED",
+          "name": "GTC",
+          "symbol": "GTC",
+          "pairToken": "0x0000000000000000000000000000000000000000",
+          "ageSec": 34,
+          "progress": 0,
+          "raised": "0",
+          "graduated": false,
+          "grade": "D",
+          "block": 92678900
+        },
+        {
+          "token": "0x54778408dAf6671301f92c2a355CF9470Aeb83b4",
+          "curve": "0x29Fd573AE971679ECD7D272E722D738a3B8e976F",
+          "deployer": "0x484343Efc21116A22EE959DA93953B5108Be9A1F",
+          "name": "WORLD BOSS",
+          "symbol": "WBOSS",
+          "pairToken": "0x0000000000000000000000000000000000000000",
+          "ageSec": 70,
+          "progress": 0.4,
+          "raised": "16764923725721135",
+          "graduated": false,
+          "grade": "D",
+          "block": 92678545
+        },
+        {
+          "token": "0xd78F23c741c68109cd99BA685555775b9b1b0e9d",
+          "curve": "0xA595F19f1137FBB296FF78F3BA343F9dAD9e3AE1",
+          "deployer": "0x1453D9BBe7829b0DD1D84dBE73376581AFfB4a57",
+          "name": "Emoink",
+          "symbol": "EMOINK",
+          "pairToken": "0x0000000000000000000000000000000000000000",
+          "ageSec": 122,
+          "progress": 0.13,
+          "raised": "5525249654884051",
+          "graduated": false,
+          "grade": "D",
+          "block": 92678032
+        },
+        {
+          "token": "0xBD19558689Fbf75fE2c0A59065C379256c230Dc3",
+          "curve": "0xd70d7A6A3EF3BaF08f038E4500393405FFcD62ae",
+          "deployer": "0xd6b887D66FFb731a1579C873241a06eC9878C98C",
+          "name": "AGIBOT",
+          "symbol": "AGIBOT",
+          "pairToken": "0x0000000000000000000000000000000000000000",
+          "ageSec": 159,
+          "progress": 3.11,
+          "raised": "130656217172034127",
+          "graduated": false,
+          "grade": "D",
+          "block": 92677669
+        }
+      ]
+    },
+    "body": "{\n  \"rule\": \"grade by bonding-curve progress: A >= 50% or graduated, B >= 20%, C >= 5%, else D\",\n  \"head\": 92679192,\n  \"launches\": [\n    {\n      \"token\": \"0x0139E9b02bEF5f9A5FC98853C8B8D3A385f866E7\",\n      \"curve\": \"0xe845b1B2E432bDECFD53f2491253a0732B9b64eE\",\n      \"deployer\": \"0x7a146F8caA85dB621b220Db4e490aa611bBCd3D3\",\n      \"name\": \"Quorix\",\n      \"symbol\": \"QRIX\",\n      \"pairToken\": \"0x0000000000000000000000000000000000000000\",\n      \"ageSec\": 11,\n      \"progress\": 3.58,\n      \"raised\": \"150401767505234480\",\n      \"graduated\": false,\n      \"grade\": \"D\",\n      \"block\": 92679128\n    },\n    {\n      \"token\": \"0xED5E6889c92Eb26292Edfb28704dF54Db74cd706\",\n      \"curve\": \"0x1BAF30E6A02C6b5770c404106ED567f78f230ed8\",\n      \"deployer\": \"0xC065666d3108f877BeF3E94345aF2591d13F78ED\",\n      \"name\": \"GTC\",\n      \"symbol\": \"GTC\",\n      \"pairToken\": \"0x0000000000000000000000000000000000000000\",\n      \"ageSec\": 34,\n      \"progress\": 0,\n      \"raised\": \"0\",\n      \"graduated\": false,\n      \"grade\": \"D\",\n      \"block\": 92678900\n    },\n    {\n      \"token\": \"0x54778408dAf6671301f92c2a355CF9470Aeb83b4\",\n      \"curve\": \"0x29Fd573AE971679ECD7D272E722D738a3B8e976F\",\n      \"deployer\": \"0x484343Efc21116A22EE959DA93953B5108Be9A1F\",\n      \"name\": \"WORLD BOSS\",\n      \"symbol\": \"WBOSS\",\n      \"pairToken\": \"0x0000000000000000000000000000000000000000\",\n      \"ageSec\": 70,\n      \"progress\": 0.4,\n      \"raised\": \"16764923725721135\",\n      \"graduated\": false,\n      \"grade\": \"D\",\n      \"block\": 92678545\n    },\n    {\n      \"token\": \"0xd78F23c741c68109cd99BA685555775b9b1b0e9d\",\n      \"curve\": \"0xA595F19f1137FBB296FF78F3BA343F9dAD9e3AE1\",\n      \"deployer\": \"0x1453D9BBe7829b0DD1D84dBE73376581AFfB4a57\",\n      \"name\": \"Emoink\",\n      \"symbol\": \"EMOINK\",\n      \"pairToken\": \"0x0000000000000000000000000000000000000000\",\n      \"ageSec\": 122,\n      \"progress\": 0.13,\n      \"raised\": \"5525249654884051\",\n      \"graduated\": false,\n      \"grade\": \"D\",\n      \"block\": 92678032\n    },\n    {\n      \"token\": \"0xBD19558689Fbf75fE2c0A59065C379256c230Dc3\",\n      \"curve\": \"0xd70d7A6A3EF3BaF08f038E4500393405FFcD62ae\",\n      \"deployer\": \"0xd6b887D66FFb731a1579C873241a06eC9878C98C\",\n      \"name\": \"AGIBOT\",\n      \"symbol\": \"AGIBOT\",\n      \"pairToken\": \"0x0000000000000000000000000000000000000000\",\n      \"ageSec\": 159,\n      \"progress\": 3.11,\n      \"raised\": \"130656217172034127\",\n      \"graduated\": false,\n      \"grade\": \"D\",\n      \"block\": 92677669\n    }\n  ]\n}"
+  },
+  "recheck": {
+    "found": true,
+    "status": "success",
+    "blockNumber": "92679189",
+    "gasUsed": "48254",
+    "transfers": [
+      {
+        "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168",
+        "from": "0x68b59e4d27b2a717194fb74d697831494108baf9",
+        "to": "0x0a64498810c29c3ac3b9557940b70a095dc745d9",
+        "value": "10000"
+      }
+    ]
+  },
+  "independentReceiptCheck": {
+    "chainId": 4663,
+    "status": 1,
+    "block": 92679189,
+    "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168",
+    "from": "0x68b59e4d27b2a717194fb74d697831494108baf9",
+    "to": "0x0a64498810c29c3ac3b9557940b70a095dc745d9",
+    "amountBase": "10000",
+    "gasWei": "982161916000"
+  }
+}

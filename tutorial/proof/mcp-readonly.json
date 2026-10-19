@@ -1,0 +1,44 @@
+{
+  "at": "2026-10-19T14:22:27.406Z",
+  "packageVersion": "2.3.1",
+  "mode": "--readonly",
+  "server": {
+    "name": "ponsmcp",
+    "version": "2.3.1"
+  },
+  "tools": [
+    "pons_chain_info",
+    "pons_quote",
+    "x402_fetch",
+    "pons_tx_status"
+  ],
+  "quote": {
+    "usd": "0.01",
+    "chain": 4663,
+    "token": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+    "symbol": "USDG",
+    "amountBase": "10000",
+    "amountHuman": "0.01",
+    "allChains": [
+      {
+        "chainId": 4663,
+        "name": "Robinhood Chain",
+        "settlementAsset": "USDG",
+        "settlementToken": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+        "amountBase": "10000",
+        "amountHuman": "0.01",
+        "status": "active"
+      },
+      {
+        "chainId": 8453,
+        "name": "Base",
+        "settlementAsset": "USDC",
+        "settlementToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "amountBase": "10000",
+        "amountHuman": "0.01",
+        "status": "beta"
+      }
+    ],
+    "note": "quote only — nothing executed"
+  }
+}

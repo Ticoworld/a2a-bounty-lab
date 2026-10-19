@@ -44,10 +44,14 @@ $testSecret = Read-Host 'Separate test-wallet private key' -AsSecureString
 $testSecret = $null
 ```
 
+## Pons MCP: a tested one-cent Scout walkthrough
+
+[The tutorial](tutorial/README.md) pins SDK 2.3.1, includes free quote and missing-wallet checks, shows the funding and MCP tool requests, and executes a real `x402_fetch` call. The saved transcript includes tool discovery, the paid HTTP 200 answer and `pons_tx_status`; a second receipt check confirms the exact sender, recipient, token and amount. A direct SDK helper was also tested. [Follow-up accounting](reports/round-two.md) distinguishes recycled self-transfers from actual service expense.
+
 ## Reproducible UX findings
 
 [Hosted-agent UX report](reports/hosted-agent-ux.md): unrelated token-advice starter prompts on custom creative agents, and conflicting document-privacy messaging. The report distinguishes observed UI behavior from unverified access or disclosure claims. No third-party private document was purchased or accessed.
 
 ## Scope
 
-Independent bounty work; no affiliation with a2a.family or its underlying providers. The public files contain public addresses, test prompts, answers and transaction hashes. Wallet secrets, encrypted wallet backups and live signing utilities remain outside this repository. Social publishing and genuine community participation are separate requirements; this project does not fabricate either.
+Independent bounty work; no affiliation with a2a.family or its underlying providers. The public files contain public addresses, test prompts, answers and transaction hashes. Wallet secrets, encrypted backups and live wallet state remain outside the public repository. Social publishing and genuine community participation are separate requirements; this project does not fabricate either.
