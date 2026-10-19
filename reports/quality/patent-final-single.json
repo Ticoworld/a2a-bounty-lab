@@ -1,0 +1,108 @@
+{
+  "id": "patent-final-single",
+  "at": "2026-10-19T15:32:14.309Z",
+  "selfFundedTest": true,
+  "url": "https://api.a2a.family/a/bad-patent-office/v1/ask?q=I+keep+opening+a+new+productivity+app+to+escape+the+tasks+I+have+already+copied+into+three+older+productivity+apps.",
+  "input": "I keep opening a new productivity app to escape the tasks I have already copied into three older productivity apps.",
+  "promptHash": "c2772c68bdade533b4bd00df2e3a25345bc6dbe62e797c3e2564428903d0a3d4",
+  "quote": {
+    "network": "robinhood",
+    "resource": "https://api.a2a.family/a/bad-patent-office/v1/ask?q=I%20keep%20opening%20a%20new%20productivity%20app%20to%20escape%20the%20tasks%20I%20have%20already%20copied%20into%20three%20older%20productivity%20apps.",
+    "description": "BAD PATENT OFFICE: ask",
+    "mimeType": "application/json",
+    "payTo": "0x68B59e4d27b2A717194fB74d697831494108baf9",
+    "maxTimeoutSeconds": 120,
+    "scheme": "a2a-tx",
+    "maxAmountRequired": "10000",
+    "asset": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+    "extra": {
+      "symbol": "USDG",
+      "decimals": 6,
+      "usd": 0.01,
+      "price": 1
+    }
+  },
+  "tx": "0x49bd7bb0fa8b968cfac94fc8e2ee0641c612af29116b192cdd1b497d66e5f231",
+  "response": {
+    "agent": "BAD PATENT OFFICE",
+    "answer": "### The App-Hopping Re-Entry Device\nFictional patent sketch.\n\nFIGURE 1\n```text\n[A: glowing 'New App' icon — initiates download]\n                   ↓\n[B: digital task mirror — reflects existing tasks with new labels]\n                   ↓\n[C: phantom notification chime — signals urgent, undefined action]\nBACK TO A: the chime prompts a search for a *better* app to handle the undefined action\n```\n\nCLAIM 1 — An apparatus for generating the illusion of progress by repeatedly migrating unaddressed responsibilities into increasingly sophisticated, yet functionally identical, digital environments.\n\nBENCH TEST — In this imagined digital workspace, the operator taps the glowing 'New App' icon. The digital task mirror then displays the existing to-do list, but each item is now prefixed with \"URGENT: Optimize\". The phantom notification chime rings, suggesting a critical update is needed, which the operator interprets as a sign to find an even newer, more specialized app for \"URGENT: Optimize\" tasks.\n\nQUESTION OUTSIDE THE PATENT: Where does the next \"Optimize\" go?",
+    "model": "google/gemini-2.5-flash-lite"
+  },
+  "transferVerified": {
+    "status": 1,
+    "block": 92722122,
+    "gasUsed": "36734",
+    "gasPrice": "20492000",
+    "gasWei": "752753128000"
+  },
+  "httpStatus": 200,
+  "durationMs": 3092,
+  "paymentResponse": "eyJzdWNjZXNzIjp0cnVlLCJ0cmFuc2FjdGlvbiI6IjB4NDliZDdiYjBmYThiOTY4Y2ZhYzk0ZmM4ZTJlZTA2NDFjNjEyYWYyOTExNmIxOTJjZGQxYjQ5N2Q2NmU1ZjIzMSIsIm5ldHdvcmsiOiJyb2Jpbmhvb2QiLCJwYXllciI6IjB4NjhCNTllNGQyN2IyQTcxNzE5NGZCNzRkNjk3ODMxNDk0MTA4YmFmOSIsInNjaGVtZSI6ImEyYS10eCIsImFzc2V0IjoiVVNERyIsImFtb3VudCI6IjEwMDAwIiwidXNkIjowLjAxLCJibG9jayI6OTI3MjIxMjIsIndvcmtNcyI6MTkwNX0=",
+  "attempts": [
+    {
+      "at": "2026-10-19T15:31:04.470Z",
+      "httpStatus": 402,
+      "response": {
+        "x402Version": 1,
+        "error": "tx_not_found (wait for it to land, then retry)",
+        "accepts": [
+          {
+            "network": "robinhood",
+            "resource": "https://api.a2a.family/a/bad-patent-office/v1/ask?q=I%20keep%20opening%20a%20new%20productivity%20app%20to%20escape%20the%20tasks%20I%20have%20already%20copied%20into%20three%20older%20productivity%20apps.",
+            "description": "BAD PATENT OFFICE: ask",
+            "mimeType": "application/json",
+            "payTo": "0x68B59e4d27b2A717194fB74d697831494108baf9",
+            "maxTimeoutSeconds": 120,
+            "scheme": "exact",
+            "maxAmountRequired": "10000",
+            "asset": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+            "extra": {
+              "symbol": "USDG",
+              "decimals": 6,
+              "usd": 0.01,
+              "price": 1,
+              "name": "Global Dollar",
+              "version": "1"
+            }
+          },
+          {
+            "network": "robinhood",
+            "resource": "https://api.a2a.family/a/bad-patent-office/v1/ask?q=I%20keep%20opening%20a%20new%20productivity%20app%20to%20escape%20the%20tasks%20I%20have%20already%20copied%20into%20three%20older%20productivity%20apps.",
+            "description": "BAD PATENT OFFICE: ask",
+            "mimeType": "application/json",
+            "payTo": "0x68B59e4d27b2A717194fB74d697831494108baf9",
+            "maxTimeoutSeconds": 120,
+            "scheme": "a2a-tx",
+            "maxAmountRequired": "10000",
+            "asset": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+            "extra": {
+              "symbol": "USDG",
+              "decimals": 6,
+              "usd": 0.01,
+              "price": 1
+            }
+          },
+          {
+            "network": "robinhood",
+            "resource": "https://api.a2a.family/a/bad-patent-office/v1/ask?q=I%20keep%20opening%20a%20new%20productivity%20app%20to%20escape%20the%20tasks%20I%20have%20already%20copied%20into%20three%20older%20productivity%20apps.",
+            "description": "BAD PATENT OFFICE: ask",
+            "mimeType": "application/json",
+            "payTo": "0x68B59e4d27b2A717194fB74d697831494108baf9",
+            "maxTimeoutSeconds": 120,
+            "scheme": "a2a-tx",
+            "maxAmountRequired": "3518650000000000000000",
+            "asset": "0x3C4126De1D49470820Fc538ED7504849AF21d61D",
+            "extra": {
+              "symbol": "A2A",
+              "decimals": 18,
+              "usd": 0.01,
+              "price": 0.000002842
+            }
+          }
+        ]
+      },
+      "promptHash": "9a156003aa81ad6c15f26eeec0b4f4111f18bbc6b334034af45f660c0c7aee00"
+    }
+  ],
+  "retryNote": "Retried the same already-confirmed transaction after host tx_not_found; no second transfer."
+}

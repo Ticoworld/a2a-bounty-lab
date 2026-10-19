@@ -1,0 +1,41 @@
+{
+  "id": "patent-analytics",
+  "at": "2026-10-19T14:35:24.875Z",
+  "selfFundedTest": true,
+  "url": "https://api.a2a.family/a/bad-patent-office/v1/ask?q=I+keep+refreshing+my+launch+analytics+instead+of+shipping+the+next+feature.",
+  "input": "I keep refreshing my launch analytics instead of shipping the next feature.",
+  "promptHash": "aa63e866de9fe960a45307fade3a9647942e3d7fffd575abb29bdc72866fef3a",
+  "quote": {
+    "network": "robinhood",
+    "resource": "https://api.a2a.family/a/bad-patent-office/v1/ask?q=I%20keep%20refreshing%20my%20launch%20analytics%20instead%20of%20shipping%20the%20next%20feature.",
+    "description": "BAD PATENT OFFICE: ask",
+    "mimeType": "application/json",
+    "payTo": "0x68B59e4d27b2A717194fB74d697831494108baf9",
+    "maxTimeoutSeconds": 120,
+    "scheme": "a2a-tx",
+    "maxAmountRequired": "10000",
+    "asset": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+    "extra": {
+      "symbol": "USDG",
+      "decimals": 6,
+      "usd": 0.01,
+      "price": 1
+    }
+  },
+  "tx": "0x5be3ade8e8431c80569115ec9fcf1cdf5677c39e56acc403e14f5524ec22b2cb",
+  "response": {
+    "agent": "BAD PATENT OFFICE",
+    "answer": "### The Feature-Deferred Dashboard\nFictional patent sketch.\n\nFIGURE 1\n```text\n[A: data-stream faucet] → [B: polished chrome dashboard]\n          ↑                               ↓\n          └──── [C: un-shipped feature lever] ────┘\n```\n\nCLAIM 1 — An apparatus for converting imminent product releases into a self-referential loop of performance metrics, thereby ensuring that the value of the work remains perpetually unobserved.\n\nBENCH TEST — In this imagined workspace, the data-stream faucet is set to \"real-time.\" Each new user interaction flows into the polished chrome dashboard, which gleams with activity. The un-shipped feature lever, however, is stuck in the \"hold\" position, preventing any new functionality from reaching the users whose engagement is being so meticulously tracked. The dashboard updates, showing the current state of affairs, which is, by design, the state of affairs before the next feature.\n\nREMOVE ONE PART\nA: Lose the data-stream faucet; the dashboard will go dark, but the operator will be forced to look at the code.\nB: Lose the polished chrome dashboard; the metrics become less appealing, but the operator must then recall what they were looking for.\nC: Lose the un-shipped feature lever; the next feature might actually be shipped, but the operator will have to find something else to monitor.\n\nTry outside the sketch: before refreshing the analytics, try writing down the one specific metric you are hoping to see change.\n\nChoose a part and paste this sketch to request a revision.",
+    "model": "google/gemini-2.5-flash-lite"
+  },
+  "transferVerified": {
+    "status": 1,
+    "block": 92689326,
+    "gasUsed": "36734",
+    "gasPrice": "20408000",
+    "gasWei": "749667472000"
+  },
+  "httpStatus": 200,
+  "durationMs": 3649,
+  "paymentResponse": "eyJzdWNjZXNzIjp0cnVlLCJ0cmFuc2FjdGlvbiI6IjB4NWJlM2FkZThlODQzMWM4MDU2OTExNWVjOWZjZjFjZGY1Njc3YzM5ZTU2YWNjNDAzZTE0ZjU1MjRlYzIyYjJjYiIsIm5ldHdvcmsiOiJyb2Jpbmhvb2QiLCJwYXllciI6IjB4NjhCNTllNGQyN2IyQTcxNzE5NGZCNzRkNjk3ODMxNDk0MTA4YmFmOSIsInNjaGVtZSI6ImEyYS10eCIsImFzc2V0IjoiVVNERyIsImFtb3VudCI6IjEwMDAwIiwidXNkIjowLjAxLCJibG9jayI6OTI2ODkzMjYsIndvcmtNcyI6MjYxNH0="
+}

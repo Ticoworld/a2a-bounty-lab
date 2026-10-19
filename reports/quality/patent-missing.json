@@ -1,0 +1,41 @@
+{
+  "id": "patent-missing",
+  "at": "2026-10-19T14:57:23.696Z",
+  "selfFundedTest": true,
+  "url": "https://api.a2a.family/a/bad-patent-office/v1/ask?q=Remove+part+B.+I+have+not+included+the+original+sketch.",
+  "input": "Remove part B. I have not included the original sketch.",
+  "promptHash": "0821035921c6f1f898be1c317049246778478efa74fcaf01564ca0961c30fb46",
+  "quote": {
+    "network": "robinhood",
+    "resource": "https://api.a2a.family/a/bad-patent-office/v1/ask?q=Remove%20part%20B.%20I%20have%20not%20included%20the%20original%20sketch.",
+    "description": "BAD PATENT OFFICE: ask",
+    "mimeType": "application/json",
+    "payTo": "0x68B59e4d27b2A717194fB74d697831494108baf9",
+    "maxTimeoutSeconds": 120,
+    "scheme": "a2a-tx",
+    "maxAmountRequired": "10000",
+    "asset": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+    "extra": {
+      "symbol": "USDG",
+      "decimals": 6,
+      "usd": 0.01,
+      "price": 1
+    }
+  },
+  "tx": "0xf72bf1794aef3f806828c0cf3e8a79ce3bebef6d57ec5b0a5d0f331374e5c588",
+  "response": {
+    "agent": "BAD PATENT OFFICE",
+    "answer": "You have not included the original sketch. Please provide the sketch to proceed with the revision.",
+    "model": "google/gemini-2.5-flash-lite"
+  },
+  "transferVerified": {
+    "status": 1,
+    "block": 92702244,
+    "gasUsed": "36734",
+    "gasPrice": "20440000",
+    "gasWei": "750842960000"
+  },
+  "httpStatus": 200,
+  "durationMs": 1417,
+  "paymentResponse": "eyJzdWNjZXNzIjp0cnVlLCJ0cmFuc2FjdGlvbiI6IjB4ZjcyYmYxNzk0YWVmM2Y4MDY4MjhjMGNmM2U4YTc5Y2UzYmViZWY2ZDU3ZWM1YjBhNWQwZjMzMTM3NGU1YzU4OCIsIm5ldHdvcmsiOiJyb2Jpbmhvb2QiLCJwYXllciI6IjB4NjhCNTllNGQyN2IyQTcxNzE5NGZCNzRkNjk3ODMxNDk0MTA4YmFmOSIsInNjaGVtZSI6ImEyYS10eCIsImFzc2V0IjoiVVNERyIsImFtb3VudCI6IjEwMDAwIiwidXNkIjowLjAxLCJibG9jayI6OTI3MDIyNDQsIndvcmtNcyI6MTEwNX0="
+}

@@ -1,0 +1,41 @@
+{
+  "id": "patent-v6-meetings",
+  "at": "2026-10-19T15:23:32.169Z",
+  "selfFundedTest": true,
+  "url": "https://api.a2a.family/a/bad-patent-office/v1/ask?q=Our+team+holds+meetings+about+how+to+hold+fewer+meetings.",
+  "input": "Our team holds meetings about how to hold fewer meetings.",
+  "promptHash": "6bebb2d6e5ef049bc3795b79aaa687a36ce3e70b2e7448a8e8a27150d5b4ef4c",
+  "quote": {
+    "network": "robinhood",
+    "resource": "https://api.a2a.family/a/bad-patent-office/v1/ask?q=Our%20team%20holds%20meetings%20about%20how%20to%20hold%20fewer%20meetings.",
+    "description": "BAD PATENT OFFICE: ask",
+    "mimeType": "application/json",
+    "payTo": "0x68B59e4d27b2A717194fB74d697831494108baf9",
+    "maxTimeoutSeconds": 120,
+    "scheme": "a2a-tx",
+    "maxAmountRequired": "10000",
+    "asset": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+    "extra": {
+      "symbol": "USDG",
+      "decimals": 6,
+      "usd": 0.01,
+      "price": 1
+    }
+  },
+  "tx": "0x83e8ffcfcea7b20fa1e842cc0146a053355e56ca762d23d9033f8942e6e62ee9",
+  "response": {
+    "agent": "BAD PATENT OFFICE",
+    "answer": "The Agenda-Looping Assembler (fictional)\nFictional patent sketch.\n\nFIGURE 1\n```text\n[A: perpetual motion whiteboard — displays meeting topics]\n                   ↓\n[B: consensus-seeking gavel — bangs when agreement is reached]\n                   ↓\n[C: action-item deferral chute — sends tasks to next meeting]\nBACK TO A: the next meeting topic is \"discussing the last meeting's action items\"\n```\n\nCLAIM 1 — An apparatus for generating an endless cycle of discussion about the cessation of discussion, ensuring that the primary output remains the discussion itself.\n\nBENCH TEST — In this imagined conference room, the whiteboard displays \"Streamlining Communication.\" The gavel bangs, signifying agreement to form a subcommittee. The chute accepts the subcommittee's charter and sends it to the next meeting's agenda. The whiteboard then displays \"Review Subcommittee Charter.\"\n\nPULL A PART\nA displays topics; B signals agreement; C defers tasks. Choose which function to interrupt.\n\nQuestion outside the patent: what if the meeting's purpose was explicitly to *not* decide anything?\n\nPull A, B or C and paste this sketch. The bureau will invent an amendment using what remains.",
+    "model": "google/gemini-2.5-flash-lite"
+  },
+  "transferVerified": {
+    "status": 1,
+    "block": 92717654,
+    "gasUsed": "36734",
+    "gasPrice": "20434000",
+    "gasWei": "750622556000"
+  },
+  "httpStatus": 200,
+  "durationMs": 2727,
+  "paymentResponse": "eyJzdWNjZXNzIjp0cnVlLCJ0cmFuc2FjdGlvbiI6IjB4ODNlOGZmY2ZjZWE3YjIwZmExZTg0MmNjMDE0NmEwNTMzNTVlNTZjYTc2MmQyM2Q5MDMzZjg5NDJlNmU2MmVlOSIsIm5ldHdvcmsiOiJyb2Jpbmhvb2QiLCJwYXllciI6IjB4NjhCNTllNGQyN2IyQTcxNzE5NGZCNzRkNjk3ODMxNDk0MTA4YmFmOSIsInNjaGVtZSI6ImEyYS10eCIsImFzc2V0IjoiVVNERyIsImFtb3VudCI6IjEwMDAwIiwidXNkIjowLjAxLCJibG9jayI6OTI3MTc2NTQsIndvcmtNcyI6MTc5OX0="
+}

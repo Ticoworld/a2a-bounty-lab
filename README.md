@@ -55,3 +55,9 @@ $testSecret = $null
 ## Scope
 
 Independent bounty work; no affiliation with a2a.family or its underlying providers. The public files contain public addresses, test prompts, answers and transaction hashes. Wallet secrets, encrypted backups and live wallet state remain outside the public repository. Social publishing and genuine community participation are separate requirements; this project does not fabricate either.
+
+## BAD PATENT OFFICE
+
+[Read the live gallery](https://ticoworld.github.io/a2a-bounty-lab/agents/bad-patent-office/): a fictional patent office for habits that refuse to improve. The gallery shows an actual paid output, its prompt hash and transaction. [The review](agents/bad-patent-office/review.md) explains failed revision tests and why the final service was narrowed to single-turn sketches. [Design entry](agents/bad-patent-office/design.md).
+
+[A private security notice](reports/private-security-notice.md) flags a confirmed finding on owner-controlled resources. Full technical evidence is retained privately.

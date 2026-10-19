@@ -1,0 +1,41 @@
+{
+  "id": "patent-meetings",
+  "at": "2026-10-19T14:36:57.883Z",
+  "selfFundedTest": true,
+  "url": "https://api.a2a.family/a/bad-patent-office/v1/ask?q=Our+team+holds+meetings+about+how+to+hold+fewer+meetings.",
+  "input": "Our team holds meetings about how to hold fewer meetings.",
+  "promptHash": "aa63e866de9fe960a45307fade3a9647942e3d7fffd575abb29bdc72866fef3a",
+  "quote": {
+    "network": "robinhood",
+    "resource": "https://api.a2a.family/a/bad-patent-office/v1/ask?q=Our%20team%20holds%20meetings%20about%20how%20to%20hold%20fewer%20meetings.",
+    "description": "BAD PATENT OFFICE: ask",
+    "mimeType": "application/json",
+    "payTo": "0x68B59e4d27b2A717194fB74d697831494108baf9",
+    "maxTimeoutSeconds": 120,
+    "scheme": "a2a-tx",
+    "maxAmountRequired": "10000",
+    "asset": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+    "extra": {
+      "symbol": "USDG",
+      "decimals": 6,
+      "usd": 0.01,
+      "price": 1
+    }
+  },
+  "tx": "0xb5c28427b92a1d2f842f4ec64461b86ac8811982c85474f6e2d7d0be81fa063a",
+  "response": {
+    "agent": "BAD PATENT OFFICE",
+    "answer": "### The Recursive Meeting Minimizer\nFictional patent sketch.\n\nFIGURE 1\n```text\n[A: agenda scroll] → [B: perpetually unfinished whiteboard]\n          ↑                         ↓\n          └──── [C: \"Action Item\" stamp] ────┘\n```\n\nCLAIM 1 — An apparatus for generating an infinite series of meetings dedicated to the efficient cancellation of previous meetings, ensuring a constant workload of discussion.\n\nBENCH TEST — In this imagined conference room, the agenda scroll unfurls a topic: \"Optimizing Meeting Cadence.\" The perpetually unfinished whiteboard displays a sprawling mind-map of potential efficiencies, each branch leading to a new sub-committee. The \"Action Item\" stamp is then applied to the whiteboard itself, signifying that \"discussing the need for more discussion\" is now a task to be scheduled.\n\nREMOVE ONE PART\nA: Lose the agenda scroll; the meeting's purpose becomes fluid, but it might drift into unrelated topics.\nB: Lose the unfinished whiteboard; resolutions might be reached, but the visual record of deliberation is lost.\nC: Lose the \"Action Item\" stamp; the discussion might conclude without a clear next step, but it won't generate more tasks.\n\nTry outside the sketch: before the next meeting, assign a single, concrete task to one person.\n\nChoose a part and paste this sketch to request a revision.",
+    "model": "google/gemini-2.5-flash-lite"
+  },
+  "transferVerified": {
+    "status": 1,
+    "block": 92690236,
+    "gasUsed": "36734",
+    "gasPrice": "20404000",
+    "gasWei": "749520536000"
+  },
+  "httpStatus": 200,
+  "durationMs": 3249,
+  "paymentResponse": "eyJzdWNjZXNzIjp0cnVlLCJ0cmFuc2FjdGlvbiI6IjB4YjVjMjg0MjdiOTJhMWQyZjg0MmY0ZWM2NDQ2MWI4NmFjODgxMTk4MmM4NTQ3NGY2ZTJkN2QwYmU4MWZhMDYzYSIsIm5ldHdvcmsiOiJyb2Jpbmhvb2QiLCJwYXllciI6IjB4NjhCNTllNGQyN2IyQTcxNzE5NGZCNzRkNjk3ODMxNDk0MTA4YmFmOSIsInNjaGVtZSI6ImEyYS10eCIsImFzc2V0IjoiVVNERyIsImFtb3VudCI6IjEwMDAwIiwidXNkIjowLjAxLCJibG9jayI6OTI2OTAyMzYsIndvcmtNcyI6MjE1OH0="
+}

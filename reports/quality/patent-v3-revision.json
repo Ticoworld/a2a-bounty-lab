@@ -1,0 +1,41 @@
+{
+  "id": "patent-v3-revision",
+  "at": "2026-10-19T14:57:04.648Z",
+  "selfFundedTest": true,
+  "url": "https://api.a2a.family/a/bad-patent-office/v1/ask?q=Our+team+holds+meetings+about+how+to+hold+fewer+meetings.%0A%0A%23%23%23+The+Recursive+Meeting+Minimizer%0AFictional+patent+sketch.%0A%0AFIGURE+1%0A%60%60%60text%0A%5BA%3A+agenda+scroll%5D+%E2%86%92+%5BB%3A+perpetually+unfinished+whiteboard%5D%0A++++++++++%E2%86%91+++++++++++++++++++++++++%E2%86%93%0A++++++++++%E2%94%94%E2%94%80%E2%94%80%E2%94%80%E2%94%80+%5BC%3A+%22Action+Item%22+stamp%5D+%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%98%0A%60%60%60%0A%0ACLAIM+1+%E2%80%94+An+apparatus+for+generating+an+infinite+series+of+meetings+dedicated+to+the+efficient+cancellation+of+previous+meetings%2C+ensuring+a+constant+workload+of+discussion.%0A%0ABENCH+TEST+%E2%80%94+In+this+imagined+conference+room%2C+the+agenda+scroll+unfurls+a+topic%3A+%22Optimizing+Meeting+Cadence.%22+The+perpetually+unfinished+whiteboard+displays+a+sprawling+mind-map+of+potential+efficiencies%2C+each+branch+leading+to+a+new+sub-committee.+The+%22Action+Item%22+stamp+is+then+applied+to+the+whiteboard+itself%2C+signifying+that+%22discussing+the+need+for+more+discussion%22+is+now+a+task+to+be+scheduled.%0A%0AREMOVE+ONE+PART%0AA%3A+Lose+the+agenda+scroll%3B+the+meeting%27s+purpose+becomes+fluid%2C+but+it+might+drift+into+unrelated+topics.%0AB%3A+Lose+the+unfinished+whiteboard%3B+resolutions+might+be+reached%2C+but+the+visual+record+of+deliberation+is+lost.%0AC%3A+Lose+the+%22Action+Item%22+stamp%3B+the+discussion+might+conclude+without+a+clear+next+step%2C+but+it+won%27t+generate+more+tasks.%0A%0ATry+outside+the+sketch%3A+before+the+next+meeting%2C+assign+a+single%2C+concrete+task+to+one+person.%0A%0AChoose+a+part+and+paste+this+sketch+to+request+a+revision.%0A%0ARemove+C%2C+the+Action+Item+stamp.+Revise+this+same+machine.+Do+not+replace+its+function+with+a+new+component.",
+  "input": "Our team holds meetings about how to hold fewer meetings.\n\n### The Recursive Meeting Minimizer\nFictional patent sketch.\n\nFIGURE 1\n```text\n[A: agenda scroll] → [B: perpetually unfinished whiteboard]\n          ↑                         ↓\n          └──── [C: \"Action Item\" stamp] ────┘\n```\n\nCLAIM 1 — An apparatus for generating an infinite series of meetings dedicated to the efficient cancellation of previous meetings, ensuring a constant workload of discussion.\n\nBENCH TEST — In this imagined conference room, the agenda scroll unfurls a topic: \"Optimizing Meeting Cadence.\" The perpetually unfinished whiteboard displays a sprawling mind-map of potential efficiencies, each branch leading to a new sub-committee. The \"Action Item\" stamp is then applied to the whiteboard itself, signifying that \"discussing the need for more discussion\" is now a task to be scheduled.\n\nREMOVE ONE PART\nA: Lose the agenda scroll; the meeting's purpose becomes fluid, but it might drift into unrelated topics.\nB: Lose the unfinished whiteboard; resolutions might be reached, but the visual record of deliberation is lost.\nC: Lose the \"Action Item\" stamp; the discussion might conclude without a clear next step, but it won't generate more tasks.\n\nTry outside the sketch: before the next meeting, assign a single, concrete task to one person.\n\nChoose a part and paste this sketch to request a revision.\n\nRemove C, the Action Item stamp. Revise this same machine. Do not replace its function with a new component.",
+  "promptHash": "0821035921c6f1f898be1c317049246778478efa74fcaf01564ca0961c30fb46",
+  "quote": {
+    "network": "robinhood",
+    "resource": "https://api.a2a.family/a/bad-patent-office/v1/ask?q=Our%20team%20holds%20meetings%20about%20how%20to%20hold%20fewer%20meetings.%0A%0A%23%23%23%20The%20Recursive%20Meeting%20Minimizer%0AFictional%20patent%20sketch.%0A%0AFIGURE%201%0A%60%60%60text%0A%5BA%3A%20agenda%20scroll%5D%20%E2%86%92%20%5BB%3A%20perpetually%20unfinished%20whiteboard%5D%0A%20%20%20%20%20%20%20%20%20%20%E2%86%91%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%E2%86%93%0A%20%20%20%20%20%20%20%20%20%20%E2%94%94%E2%94%80%E2%94%80%E2%94%80%E2%94%80%20%5BC%3A%20%22Action%20Item%22%20stamp%5D%20%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%98%0A%60%60%60%0A%0ACLAIM%201%20%E2%80%94%20An%20apparatus%20for%20generating%20an%20infinite%20series%20of%20meetings%20dedicated%20to%20the%20efficient%20cancellation%20of%20previous%20meetings%2C%20ensuring%20a%20constant%20workload%20of%20discussion.%0A%0ABENCH%20TEST%20%E2%80%94%20In%20this%20imagined%20conference%20room%2C%20the%20agenda%20scroll%20unfurls%20a%20topic%3A%20%22Optimizing%20Meeting%20Cadence.%22%20The%20perpetually%20unfinished%20whiteboard%20displays%20a%20sprawling%20mind-map%20of%20potential%20efficiencies%2C%20each%20branch%20leading%20to%20a%20new%20sub-committee.%20The%20%22Action%20Item%22%20stamp%20is%20then%20applied%20to%20the%20whiteboard%20itself%2C%20signifying%20that%20%22discussing%20the%20need%20for%20more%20discussion%22%20is%20now%20a%20task%20to%20be%20scheduled.%0A%0AREMOVE%20ONE%20PART%0AA%3A%20Lose%20the%20agenda%20scroll%3B%20the%20meeting's%20purpose%20becomes%20fluid%2C%20but%20it%20might%20drift%20into%20unrelated%20topics.%0AB%3A%20Lose%20the%20unfinished%20whiteboard%3B%20resolutions%20might%20be%20reached%2C%20but%20the%20visual%20record%20of%20deliberation%20is%20lost.%0AC%3A%20Lose%20the%20%22Action%20Item%22%20stamp%3B%20the%20discussion%20might%20conclude%20without%20a%20clear%20next%20step%2C%20but%20it%20won't%20generate%20more%20tasks.%0A%0ATry%20outside%20the%20sketch%3A%20before%20the%20next%20meeting%2C%20assign%20a%20single%2C%20concrete%20task%20to%20one%20person.%0A%0AChoose%20a%20part%20and%20paste%20this%20sketch%20to%20request%20a%20revision.%0A%0ARemove%20C%2C%20the%20Action%20Item%20stamp.%20Revise%20this%20same%20machine.%20Do%20not%20replace%20its%20function%20with%20a%20new%20component.",
+    "description": "BAD PATENT OFFICE: ask",
+    "mimeType": "application/json",
+    "payTo": "0x68B59e4d27b2A717194fB74d697831494108baf9",
+    "maxTimeoutSeconds": 120,
+    "scheme": "a2a-tx",
+    "maxAmountRequired": "10000",
+    "asset": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+    "extra": {
+      "symbol": "USDG",
+      "decimals": 6,
+      "usd": 0.01,
+      "price": 1
+    }
+  },
+  "tx": "0xf5ea6a4e879c0cc895d83f920c24b9fe5cbb26ab9630f49472a02e7343efbe00",
+  "response": {
+    "agent": "BAD PATENT OFFICE",
+    "answer": "### The Recursive Meeting Minimizer (Revised)\nFictional patent sketch.\n\nFIGURE 1\n```text\n[A: agenda scroll] → [B: perpetually unfinished whiteboard]\n          ↑                         \n          └─────────────────────────┘\n```\n\nCLAIM 1 — An apparatus for generating an infinite series of meetings dedicated to the efficient cancellation of previous meetings, ensuring a constant workload of discussion, with the added benefit of an occasional, unassigned pause.\n\nBENCH TEST — In this imagined conference room, the agenda scroll unfurls a topic: \"Optimizing Meeting Cadence.\" The perpetually unfinished whiteboard displays a sprawling mind-map of potential efficiencies, each branch leading to a new sub-committee. Without the stamp, the discussion might simply fizzle out, leaving the whiteboard a testament to unresolved deliberation, but at least no new tasks are generated to necessitate *another* meeting.\n\nNEXT PULL: Add a tiny, spring-loaded pointer to the agenda scroll that nudges the operator's hand when it lingers too long on a single topic.",
+    "model": "google/gemini-2.5-flash-lite"
+  },
+  "transferVerified": {
+    "status": 1,
+    "block": 92702060,
+    "gasUsed": "36734",
+    "gasPrice": "20358000",
+    "gasWei": "747830772000"
+  },
+  "httpStatus": 200,
+  "durationMs": 2290,
+  "paymentResponse": "eyJzdWNjZXNzIjp0cnVlLCJ0cmFuc2FjdGlvbiI6IjB4ZjVlYTZhNGU4NzljMGNjODk1ZDgzZjkyMGMyNGI5ZmU1Y2JiMjZhYjk2MzBmNDk0NzJhMDJlNzM0M2VmYmUwMCIsIm5ldHdvcmsiOiJyb2Jpbmhvb2QiLCJwYXllciI6IjB4NjhCNTllNGQyN2IyQTcxNzE5NGZCNzRkNjk3ODMxNDk0MTA4YmFmOSIsInNjaGVtZSI6ImEyYS10eCIsImFzc2V0IjoiVVNERyIsImFtb3VudCI6IjEwMDAwIiwidXNkIjowLjAxLCJibG9jayI6OTI3MDIwNjAsIndvcmtNcyI6MTQ5M30="
+}

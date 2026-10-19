@@ -1,0 +1,41 @@
+{
+  "id": "patent-v3-monday",
+  "at": "2026-10-19T14:57:13.569Z",
+  "selfFundedTest": true,
+  "url": "https://api.a2a.family/a/bad-patent-office/v1/ask?q=Monday.",
+  "input": "Monday.",
+  "promptHash": "0821035921c6f1f898be1c317049246778478efa74fcaf01564ca0961c30fb46",
+  "quote": {
+    "network": "robinhood",
+    "resource": "https://api.a2a.family/a/bad-patent-office/v1/ask?q=Monday.",
+    "description": "BAD PATENT OFFICE: ask",
+    "mimeType": "application/json",
+    "payTo": "0x68B59e4d27b2A717194fB74d697831494108baf9",
+    "maxTimeoutSeconds": 120,
+    "scheme": "a2a-tx",
+    "maxAmountRequired": "10000",
+    "asset": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+    "extra": {
+      "symbol": "USDG",
+      "decimals": 6,
+      "usd": 0.01,
+      "price": 1
+    }
+  },
+  "tx": "0xc150ca8847386303dfcf5813d2c6312fd728e71da5bbf2edf479edd39bf0d8bb",
+  "response": {
+    "agent": "BAD PATENT OFFICE",
+    "answer": "The Monday Accumulator\nFictional patent sketch.\n\nFIGURE 1\n```text\n[A: crumpled newspaper] → [B: ticking alarm clock]\n          ↑                         ↓\n          └──── [C: sighing bellows] ────┘\n```\n\nCLAIM 1 — An apparatus for converting the perceived weight of the coming week into a palpable atmospheric pressure, while ensuring the operator remains perpetually unprepared.\n\nBENCH TEST — In an imagined dimly lit study, the crumpled newspaper, representing a weekend's worth of unread news, is fed into the Accumulator. This triggers the ticking alarm clock, which instead of ringing, emits a low, insistent hum. The sighing bellows then inflate, filling the room with a heavy, damp air that makes movement feel like wading through molasses. The air pressure increases with each passing hour, making the prospect of Tuesday feel even more daunting.\n\nREMOVE ONE PART\nA: Lose the weekend's detritus; gain a clear mental slate, but the week's obligations will feel less substantial.\nB: Lose the time-keeping dread; gain punctuality, but the pressure to begin will be absent.\nC: Lose the atmospheric drag; gain lightness, but the palpable sense of impending effort will vanish.\n\nChoose a part and paste this sketch to request a revision.",
+    "model": "google/gemini-2.5-flash-lite"
+  },
+  "transferVerified": {
+    "status": 1,
+    "block": 92702148,
+    "gasUsed": "36734",
+    "gasPrice": "20642000",
+    "gasWei": "758263228000"
+  },
+  "httpStatus": 200,
+  "durationMs": 2155,
+  "paymentResponse": "eyJzdWNjZXNzIjp0cnVlLCJ0cmFuc2FjdGlvbiI6IjB4YzE1MGNhODg0NzM4NjMwM2RmY2Y1ODEzZDJjNjMxMmZkNzI4ZTcxZGE1YmJmMmVkZjQ3OWVkZDM5YmYwZDhiYiIsIm5ldHdvcmsiOiJyb2Jpbmhvb2QiLCJwYXllciI6IjB4NjhCNTllNGQyN2IyQTcxNzE5NGZCNzRkNjk3ODMxNDk0MTA4YmFmOSIsInNjaGVtZSI6ImEyYS10eCIsImFzc2V0IjoiVVNERyIsImFtb3VudCI6IjEwMDAwIiwidXNkIjowLjAxLCJibG9jayI6OTI3MDIxNDgsIndvcmtNcyI6MTg0MX0="
+}

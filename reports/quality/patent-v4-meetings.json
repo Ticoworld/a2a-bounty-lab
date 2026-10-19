@@ -1,0 +1,41 @@
+{
+  "id": "patent-v4-meetings",
+  "at": "2026-10-19T15:04:53.958Z",
+  "selfFundedTest": true,
+  "url": "https://api.a2a.family/a/bad-patent-office/v1/ask?q=Our+team+holds+meetings+about+how+to+hold+fewer+meetings.",
+  "input": "Our team holds meetings about how to hold fewer meetings.",
+  "promptHash": "11236844620475f4e7a9cd857fc4a5f34973f0a55c5a4245a5fc8a5a0349729e",
+  "quote": {
+    "network": "robinhood",
+    "resource": "https://api.a2a.family/a/bad-patent-office/v1/ask?q=Our%20team%20holds%20meetings%20about%20how%20to%20hold%20fewer%20meetings.",
+    "description": "BAD PATENT OFFICE: ask",
+    "mimeType": "application/json",
+    "payTo": "0x68B59e4d27b2A717194fB74d697831494108baf9",
+    "maxTimeoutSeconds": 120,
+    "scheme": "a2a-tx",
+    "maxAmountRequired": "10000",
+    "asset": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+    "extra": {
+      "symbol": "USDG",
+      "decimals": 6,
+      "usd": 0.01,
+      "price": 1
+    }
+  },
+  "tx": "0xd39534acf850c181eb3a35639cf3d0dc6c4002e4df7211b604e85fcf6d320a3c",
+  "response": {
+    "agent": "BAD PATENT OFFICE",
+    "answer": "The Perpetual Agenda Loop (fictional)\n\nFictional patent sketch.\n\nFIGURE 1\n```text\n[A: rotating agenda wheel — spins through topics]\n                   ↓\n[B: consensus-seeking rubber stamp — applies 'approved' to minutes]\n                   ↓\n[C: coffee-stained notepad — records action items as vague suggestions]\nBACK TO A: the vague suggestions become new agenda topics\n```\n\nCLAIM 1 — An apparatus for transforming productive time into discussions about productivity, while ensuring that the original problem remains perpetually on the agenda.\n\nBENCH TEST — In this imagined conference room, the rotating agenda wheel lands on \"Streamlining Communication.\" The consensus-seeking stamp dutifully marks the minutes as \"approved.\" The coffee-stained notepad captures \"explore synergy\" as a key action item. This vague suggestion then cycles back to the agenda wheel, ready for another meeting about how to streamline communication.\n\nREMOVE ONE PART\nA: Lose the rotating agenda wheel; the meeting would have a fixed topic, but might get stuck on one issue.\nB: Lose the consensus-seeking stamp; decisions would be less official, but might actually be made.\nC: Lose the coffee-stained notepad; action items would be clearer, but might be too concrete to avoid.\n\nTry outside the sketch: before the next meeting, write down one specific, actionable task for yourself related to meeting efficiency.\n\nChoose a part and paste this sketch to request a revision.",
+    "model": "google/gemini-2.5-flash-lite"
+  },
+  "transferVerified": {
+    "status": 1,
+    "block": 92706727,
+    "gasUsed": "52338",
+    "gasPrice": "20502000",
+    "gasWei": "1073033676000"
+  },
+  "httpStatus": 200,
+  "durationMs": 3397,
+  "paymentResponse": "eyJzdWNjZXNzIjp0cnVlLCJ0cmFuc2FjdGlvbiI6IjB4ZDM5NTM0YWNmODUwYzE4MWViM2EzNTYzOWNmM2QwZGM2YzQwMDJlNGRmNzIxMWI2MDRlODVmY2Y2ZDMyMGEzYyIsIm5ldHdvcmsiOiJyb2Jpbmhvb2QiLCJwYXllciI6IjB4NjhCNTllNGQyN2IyQTcxNzE5NGZCNzRkNjk3ODMxNDk0MTA4YmFmOSIsInNjaGVtZSI6ImEyYS10eCIsImFzc2V0IjoiVVNERyIsImFtb3VudCI6IjEwMDAwIiwidXNkIjowLjAxLCJibG9jayI6OTI3MDY3MjcsIndvcmtNcyI6MjQ2OX0="
+}

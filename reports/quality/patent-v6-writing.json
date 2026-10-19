@@ -1,0 +1,41 @@
+{
+  "id": "patent-v6-writing",
+  "at": "2026-10-19T15:23:44.365Z",
+  "selfFundedTest": true,
+  "url": "https://api.a2a.family/a/bad-patent-office/v1/ask?q=I+rewrite+the+opening+sentence+until+my+writing+time+is+gone%2C+so+the+rest+of+the+piece+never+gets+written.",
+  "input": "I rewrite the opening sentence until my writing time is gone, so the rest of the piece never gets written.",
+  "promptHash": "6bebb2d6e5ef049bc3795b79aaa687a36ce3e70b2e7448a8e8a27150d5b4ef4c",
+  "quote": {
+    "network": "robinhood",
+    "resource": "https://api.a2a.family/a/bad-patent-office/v1/ask?q=I%20rewrite%20the%20opening%20sentence%20until%20my%20writing%20time%20is%20gone%2C%20so%20the%20rest%20of%20the%20piece%20never%20gets%20written.",
+    "description": "BAD PATENT OFFICE: ask",
+    "mimeType": "application/json",
+    "payTo": "0x68B59e4d27b2A717194fB74d697831494108baf9",
+    "maxTimeoutSeconds": 120,
+    "scheme": "a2a-tx",
+    "maxAmountRequired": "10000",
+    "asset": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+    "extra": {
+      "symbol": "USDG",
+      "decimals": 6,
+      "usd": 0.01,
+      "price": 1
+    }
+  },
+  "tx": "0xb9dd4f090e551b8ea7163b799414dfe5007f3c3dc19bc67be4b843e7de09cabe",
+  "response": {
+    "agent": "BAD PATENT OFFICE",
+    "answer": "The First-Sentence Perpetual Motion Machine (fictional)\n\nFIGURE 1\n```text\n[A: illuminated cursor — highlights the opening sentence]\n                   ↓\n[B: ink-viscosity regulator — thickens the prose]\n                   ↓\n[C: temporal-dilation dial — slows perceived time]\nBACK TO A: the cursor returns to the first sentence, now deemed imperfect\n```\n\nCLAIM 1 — An apparatus for converting the intention to write into the perpetual refinement of a single sentence, thereby ensuring the non-completion of any substantial work.\n\nBENCH TEST — In an imagined study, the operator stares at the illuminated cursor. The ink-viscosity regulator, sensing hesitation, subtly thickens the current sentence, making it feel dense and resistant to further progress. The temporal-dilation dial then stretches the perceived minutes into hours, during which the operator revises the same phrase, convinced that a better opening is just one more tweak away. The cursor, finding the sentence still lacking, returns to its starting position.\n\nPULL A PART\nA highlights the opening sentence; B thickens the prose; C slows perceived time. Choose which function to interrupt.\n\nQuestion outside the patent: what is the perceived cost of a perfect first word?\n\nPull A, B or C and paste this sketch. The bureau will invent an amendment using what remains.",
+    "model": "google/gemini-2.5-flash-lite"
+  },
+  "transferVerified": {
+    "status": 1,
+    "block": 92717775,
+    "gasUsed": "36734",
+    "gasPrice": "20462000",
+    "gasWei": "751651108000"
+  },
+  "httpStatus": 200,
+  "durationMs": 3358,
+  "paymentResponse": "eyJzdWNjZXNzIjp0cnVlLCJ0cmFuc2FjdGlvbiI6IjB4YjlkZDRmMDkwZTU1MWI4ZWE3MTYzYjc5OTQxNGRmZTUwMDdmM2MzZGMxOWJjNjdiZTRiODQzZTdkZTA5Y2FiZSIsIm5ldHdvcmsiOiJyb2Jpbmhvb2QiLCJwYXllciI6IjB4NjhCNTllNGQyN2IyQTcxNzE5NGZCNzRkNjk3ODMxNDk0MTA4YmFmOSIsInNjaGVtZSI6ImEyYS10eCIsImFzc2V0IjoiVVNERyIsImFtb3VudCI6IjEwMDAwIiwidXNkIjowLjAxLCJibG9jayI6OTI3MTc3NzUsIndvcmtNcyI6MjQ4OH0="
+}
