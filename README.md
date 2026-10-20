@@ -6,7 +6,7 @@ A small set of tools for inspecting an agent marketplace and testing what its ag
 
 [Open Switchboard](https://ticoworld.github.io/a2a-bounty-lab/dashboard/).
 
-The live dashboard reads `/feed`, `/stats` and `/agents` from `api.a2a.family`. It separates reported paid calls, signed/holder calls, transfer-only events and unclassified rows. Same-wallet and other-wallet payments remain separate; neither is presented as a count of independent customers. It shows loaded sample coverage, per-source refresh times, searchable events, agent drilldowns, an hourly activity chart and filtered JSON export.
+The live dashboard reads `/feed`, `/stats` and `/agents` from `api.a2a.family`. It separates reported paid calls, signed/holder calls, transfer-only events and unclassified rows. Same-wallet and other-wallet payments remain separate; neither is presented as a count of independent customers. It paginates history in 100-row pages (up to 1,000), shows loaded coverage and refresh times, and provides searchable events, agent drilldowns, an hourly chart and filtered JSON export. A manual receipt checker compares the exact USDG token, payer, recipient and amount with Robinhood Chain receipts; its result travels with the export.
 
 Null dollar values and missing latency remain unknown. A transfer is not silently counted as a completed agent call. Registry health is not treated as proof of answer quality. The app polls every 30 seconds while visible, can be paused, and preserves each last successful response if one source fails. It never connects a wallet or makes a payment.
 
@@ -15,10 +15,28 @@ Run locally:
 ```sh
 python -m http.server 8765
 # Open http://localhost:8765/dashboard/
-node --test dashboard/model.test.mjs
+npm test
+# Reviewer demo: current feed + two real receipts + a deliberately wrong local claim
+node scripts/review.mjs
 ```
 
-Nine tests cover event classification, missing and malformed values, address comparisons, duplicate events, full trailing-day windows, incomplete registries, chart bins and transaction-link validation. The live UI was checked for search, empty filters, pause and agent drilldown. The dashboard uses public API claims; it does not independently verify the on-chain receipts behind the entire feed. Google Fonts is optional; system-font fallbacks are provided.
+Nineteen dashboard tests cover classification, malformed values, address comparisons, duplicate events, time windows, registry gaps, pagination failures and receipt matches, mismatches and unavailable RPC data. Four more tests cover payment-offer binding and cumulative budget reservations. The UI was checked for search, empty filters, pause, agent drilldown, history depth and receipt filtering; ten selected live receipts matched. Unchecked rows remain API claims. A matching transfer does not establish delivered answer quality, independent customers or correct agent attribution. Google Fonts is optional; system-font fallbacks are provided.
+
+## Hire Agent: buy from a different merchant, with evidence
+
+The post-submission client [`scripts/hire-agent.mjs`](scripts/hire-agent.mjs) buys a skill from another merchant using the documented `a2a-tx` path. It binds the card and HTTP 402 quote to the URL, chain, USDG token, explicit recipient and exact price before paying. A real Scout purchase returned HTTP 200 and an exact receipt match: [public execution record](reports/buyer-scout-proof.json). This is our integration test, not demand for our own agent.
+
+```sh
+npm ci
+# Free card/402 inspection; no key needed
+node scripts/hire-agent.mjs --url "https://api.a2a.family/a/scout/v1/grade_launches?n=1" --recipient 0x0a64498810C29C3Ac3b9557940b70A095dc745D9
+# Read-only end-to-end reviewer demo; no wallet or dependency needed
+node scripts/review.mjs
+```
+
+To make one deliberate purchase, add `--pay --id UNIQUE --payer YOUR_ADDRESS` and supply a separately funded test key on stdin. Defaults are 0.01 USDG per call and cumulatively, plus 0.000002 ETH cumulative gas per journal. Choose a journal directory with `--journal`; preserve it between runs. Budget reservations include prepared and broadcast records, even when their outcome is uncertain. An exclusive lock prevents concurrent use of that journal. The client saves a reservation and nonce before broadcast, verifies the exact transfer, and then requests the answer. A duplicate ID refuses another purchase.
+
+If payment settled but delivery failed, `--resume --id UNIQUE` reuses the recorded transaction without a key or second transfer. A completed record returns immediately; an unknown broadcast outcome requires manual chain reconciliation. The client supports USDG `a2a-tx` only, not EIP-3009 signatures. Its local journal is not a production custody or multi-machine budget system; public RPC data is not independently authenticated. [Changes, validation and limits](reports/post-submission-upgrade.md).
 
 ## Hire and Check: real paid regression calls
 

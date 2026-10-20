@@ -1,0 +1,102 @@
+{
+  "id": "scout-buyer-upgrade",
+  "createdAt": "2026-10-20T05:25:41.189Z",
+  "status": "completed",
+  "agent": "scout",
+  "skill": "grade_launches",
+  "url": "https://api.a2a.family/a/scout/v1/grade_launches?n=1",
+  "recipient": "0x0a64498810C29C3Ac3b9557940b70A095dc745D9",
+  "amountAtomic": "10000",
+  "quote": {
+    "network": "robinhood",
+    "resource": "https://api.a2a.family/a/scout/v1/grade_launches?n=1",
+    "description": "Scout: grade_launches",
+    "mimeType": "application/json",
+    "payTo": "0x0a64498810C29C3Ac3b9557940b70A095dc745D9",
+    "maxTimeoutSeconds": 120,
+    "scheme": "a2a-tx",
+    "maxAmountRequired": "10000",
+    "asset": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+    "extra": {
+      "symbol": "USDG",
+      "decimals": 6,
+      "usd": 0.01,
+      "chainId": 4663,
+      "note": "transfer this many USDG base units to payTo, then put {\"txHash\":\"0x\u00e2\u20ac\u00a6\"} in the payload"
+    }
+  },
+  "cardName": "Scout",
+  "payer": "0x68B59e4d27b2A717194fB74d697831494108baf9",
+  "amountUSDG": "0.010000",
+  "reservedGasWei": "1484793680000",
+  "selfFundedTest": false,
+  "tx": "0x74d39ab2051613157650364e04b1b3635c7bb1cce47083564e59453dfc68aee3",
+  "settlement": {
+    "status": "matched",
+    "reason": "Exact USDG transfer matched. This does not verify the delivered answer, customer identity or agent attribution.",
+    "evidence": {
+      "chainId": 4663,
+      "transaction": "0x74d39ab2051613157650364e04b1b3635c7bb1cce47083564e59453dfc68aee3",
+      "block": "0x58e3c8e",
+      "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168",
+      "payer": "0x68b59e4d27b2a717194fb74d697831494108baf9",
+      "payTo": "0x0a64498810c29c3ac3b9557940b70a095dc745d9",
+      "amountAtomic": "10000",
+      "logIndex": "0x2"
+    },
+    "checkedAt": "2026-10-20T05:29:42.843Z"
+  },
+  "gasWei": "965176508000",
+  "attempts": [
+    {
+      "at": "2026-10-20T05:25:44.308Z",
+      "status": 200,
+      "data": {
+        "rule": "grade by bonding-curve progress: A >= 50% or graduated, B >= 20%, C >= 5%, else D",
+        "head": 93207668,
+        "launches": [
+          {
+            "token": "0x0a7a60Bcbb0e949314BF1C4b04c30E2231a652f5",
+            "curve": "0x908BC022a8ef666f209500F1162990cE71Cab68C",
+            "deployer": "0xe52B2A81c8948861B95304Bbeaa8cBcc16bDD2D1",
+            "name": "Dracaena malfoy",
+            "symbol": "DRACAENAM",
+            "pairToken": "0x0000000000000000000000000000000000000000",
+            "ageSec": 22,
+            "progress": 0.33,
+            "raised": "13793583450620294",
+            "graduated": false,
+            "grade": "D",
+            "block": 93207494
+          }
+        ]
+      },
+      "paymentResponse": "eyJzdWNjZXNzIjp0cnVlLCJ0cmFuc2FjdGlvbiI6IjB4NzRkMzlhYjIwNTE2MTMxNTc2NTAzNjRlMDRiMWIzNjM1YzdiYjFjY2U0NzA4MzU2NGU1OTQ1M2RmYzY4YWVlMyIsIm5ldHdvcmsiOiJyb2Jpbmhvb2QiLCJwYXllciI6IjB4NjhCNTllNGQyN2IyQTcxNzE5NGZCNzRkNjk3ODMxNDk0MTA4YmFmOSIsInNjaGVtZSI6ImEyYS10eCIsImFzc2V0IjoiVVNERyIsImFtb3VudCI6IjEwMDAwIiwidXNkIjowLjAxLCJibG9jayI6OTMyMDc2OTQsIndvcmtNcyI6NzR9"
+    }
+  ],
+  "response": {
+    "status": 200,
+    "data": {
+      "rule": "grade by bonding-curve progress: A >= 50% or graduated, B >= 20%, C >= 5%, else D",
+      "head": 93207668,
+      "launches": [
+        {
+          "token": "0x0a7a60Bcbb0e949314BF1C4b04c30E2231a652f5",
+          "curve": "0x908BC022a8ef666f209500F1162990cE71Cab68C",
+          "deployer": "0xe52B2A81c8948861B95304Bbeaa8cBcc16bDD2D1",
+          "name": "Dracaena malfoy",
+          "symbol": "DRACAENAM",
+          "pairToken": "0x0000000000000000000000000000000000000000",
+          "ageSec": 22,
+          "progress": 0.33,
+          "raised": "13793583450620294",
+          "graduated": false,
+          "grade": "D",
+          "block": 93207494
+        }
+      ]
+    },
+    "paymentResponse": "eyJzdWNjZXNzIjp0cnVlLCJ0cmFuc2FjdGlvbiI6IjB4NzRkMzlhYjIwNTE2MTMxNTc2NTAzNjRlMDRiMWIzNjM1YzdiYjFjY2U0NzA4MzU2NGU1OTQ1M2RmYzY4YWVlMyIsIm5ldHdvcmsiOiJyb2Jpbmhvb2QiLCJwYXllciI6IjB4NjhCNTllNGQyN2IyQTcxNzE5NGZCNzRkNjk3ODMxNDk0MTA4YmFmOSIsInNjaGVtZSI6ImEyYS10eCIsImFzc2V0IjoiVVNERyIsImFtb3VudCI6IjEwMDAwIiwidXNkIjowLjAxLCJibG9jayI6OTMyMDc2OTQsIndvcmtNcyI6NzR9"
+  },
+  "purpose": "Developer integration test against external Scout merchant; not organic demand for our agents."
+}

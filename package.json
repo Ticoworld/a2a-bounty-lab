@@ -3,7 +3,14 @@
   "version": "1.0.0",
   "private": true,
   "description": "Switchboard activity dashboard and a real x402 agent regression harness",
-  "scripts": {"test":"node --test dashboard/model.test.mjs","serve":"python -m http.server 8765"},
-  "dependencies": {"ethers":"6.17.0"},
-  "engines": {"node":">=22"}
+  "scripts": {
+    "test": "node --test dashboard/*.test.mjs scripts/*.test.mjs",
+    "serve": "python -m http.server 8765"
+  },
+  "dependencies": {
+    "ethers": "6.17.0"
+  },
+  "engines": {
+    "node": ">=22"
+  }
 }

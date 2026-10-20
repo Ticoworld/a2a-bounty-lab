@@ -1,0 +1,102 @@
+{
+  "at": "2026-10-20T05:24:55.161Z",
+  "readOnly": true,
+  "noWalletOrPayment": true,
+  "feed": {
+    "loaded": 173,
+    "reported": 173,
+    "pages": 2,
+    "more": false,
+    "snapshotChanged": false
+  },
+  "externalMerchantChecks": [
+    {
+      "claim": {
+        "tx": "0xcc38e82a63e946434836f830d8f26a5e66fcec0ce4780def52dc1ac1c9c16b6a",
+        "caller": null,
+        "payer": "0x68B59e4d27b2A717194fB74d697831494108baf9",
+        "payTo": "0x0a64498810C29C3Ac3b9557940b70A095dc745D9",
+        "agent": "scout",
+        "agentName": "Scout",
+        "skill": "grade_launches",
+        "amount": "0.01",
+        "asset": "USDG",
+        "usd": 0.01,
+        "scheme": "a2a-tx",
+        "ms": 369,
+        "block": 92679189,
+        "at": "2026-10-19T14:18:09.510Z",
+        "explorer": "https://robinhoodchain.blockscout.com/tx/0xcc38e82a63e946434836f830d8f26a5e66fcec0ce4780def52dc1ac1c9c16b6a",
+        "time": 1792419489510,
+        "usdValue": 0.01,
+        "latency": 369,
+        "kind": "paid",
+        "relation": "other-wallet"
+      },
+      "check": {
+        "status": "matched",
+        "reason": "Exact USDG transfer matched. This does not verify the delivered answer, customer identity or agent attribution.",
+        "evidence": {
+          "chainId": 4663,
+          "transaction": "0xcc38e82a63e946434836f830d8f26a5e66fcec0ce4780def52dc1ac1c9c16b6a",
+          "block": "0x5862c15",
+          "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168",
+          "payer": "0x68b59e4d27b2a717194fb74d697831494108baf9",
+          "payTo": "0x0a64498810c29c3ac3b9557940b70a095dc745d9",
+          "amountAtomic": "10000",
+          "logIndex": "0x4"
+        },
+        "checkedAt": "2026-10-20T05:24:54.038Z"
+      }
+    },
+    {
+      "claim": {
+        "tx": "0x3f822291443b4b1f50411f502854d7fcdd4111f7e43b8afd2a1eb52d762cf525",
+        "caller": null,
+        "payer": "0x68B59e4d27b2A717194fB74d697831494108baf9",
+        "payTo": "0x0a64498810C29C3Ac3b9557940b70A095dc745D9",
+        "agent": "scout",
+        "agentName": "Scout",
+        "skill": "grade_launches",
+        "amount": "0.01",
+        "asset": "USDG",
+        "usd": 0.01,
+        "scheme": "a2a-tx",
+        "ms": 378,
+        "block": 92675058,
+        "at": "2026-10-19T14:11:18.373Z",
+        "explorer": "https://robinhoodchain.blockscout.com/tx/0x3f822291443b4b1f50411f502854d7fcdd4111f7e43b8afd2a1eb52d762cf525",
+        "time": 1792419078373,
+        "usdValue": 0.01,
+        "latency": 378,
+        "kind": "paid",
+        "relation": "other-wallet"
+      },
+      "check": {
+        "status": "matched",
+        "reason": "Exact USDG transfer matched. This does not verify the delivered answer, customer identity or agent attribution.",
+        "evidence": {
+          "chainId": 4663,
+          "transaction": "0x3f822291443b4b1f50411f502854d7fcdd4111f7e43b8afd2a1eb52d762cf525",
+          "block": "0x5861bf2",
+          "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168",
+          "payer": "0x68b59e4d27b2a717194fb74d697831494108baf9",
+          "payTo": "0x0a64498810c29c3ac3b9557940b70a095dc745d9",
+          "amountAtomic": "10000",
+          "logIndex": "0x5"
+        },
+        "checkedAt": "2026-10-20T05:24:54.611Z"
+      }
+    }
+  ],
+  "negativeCheck": {
+    "label": "Deliberately altered local claim, not an actual feed row",
+    "originalTx": "0x49bd7bb0fa8b968cfac94fc8e2ee0641c612af29116b192cdd1b497d66e5f231",
+    "changedAmount": "99.000000",
+    "result": {
+      "status": "mismatch",
+      "reason": "Successful transaction has no USDG Transfer matching the claimed payer, recipient and exact amount.",
+      "checkedAt": "2026-10-20T05:24:55.161Z"
+    }
+  }
+}
