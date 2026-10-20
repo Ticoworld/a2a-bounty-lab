@@ -16,3 +16,6 @@ dialog{margin:0 0 0 auto;inset:0 0 0 auto;width:min(500px,100vw);height:100dvh;m
 body{overflow-x:clip}.app{min-width:0}.table-scroll{overscroll-behavior-x:contain;scrollbar-width:thin}.event-table th:last-child,.event-table td:last-child{position:sticky;right:0;background:white;border-left:1px solid #eceef3;box-shadow:-4px 0 8px #20273b04}.event-table th:last-child{background:#fafbfc}.event-table tbody tr:hover td:last-child{background:#fafaff}@media(max-width:1100px){.table-hint{display:block;font-size:10px;color:var(--muted);padding:10px 16px;margin:0;border-top:1px solid var(--line);line-height:1.7}}@media(min-width:621px) and (max-width:900px){.activity-chart{display:flex;flex-direction:column}.plot{height:190px;margin-top:10px}.histogram{height:170px}.activity-chart .chart-legend{margin-top:auto}}
 
 @media(max-width:1100px){.table-hint{border-top:0;border-bottom:1px solid var(--line)}}
+
+/* Workspace navigation moves directly to the selected data section. */
+html{scroll-behavior:auto}
