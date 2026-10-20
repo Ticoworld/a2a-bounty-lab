@@ -1,0 +1,1 @@
+document.querySelectorAll('[data-copy-command]').forEach(button=>button.addEventListener('click',async()=>{const code=button.closest('.command-block').querySelector('code');try{await navigator.clipboard.writeText(code.textContent);button.textContent='Copied';setTimeout(()=>button.textContent='Copy',1800);}catch{button.textContent='Select command to copy';}}));

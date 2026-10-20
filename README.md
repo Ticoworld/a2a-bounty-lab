@@ -12,7 +12,7 @@ For builders and reviewers checking what is happening on a2a.family. Search agen
 
 The dashboard loads up to 1,000 events and shows how much history is available. On **20 October 2026**, the public site loaded **174 of 174 reported events**, and ten selected USDG transfers matched their receipts. These are dated checks, not a claim that every event has been verified. No wallet connection or payment is needed to use the dashboard.
 
-[Explore Switchboard](https://ticoworld.github.io/a2a-bounty-lab/dashboard/) · [How the checks work](dashboard/README.md)
+[Explore Switchboard](https://ticoworld.github.io/a2a-bounty-lab/dashboard/) · [How the checks work](dashboard/README.md) · [Interface changes](reports/interface-redesign.md)
 
 ## Hire Agent — make one paid call, then keep the evidence
 
@@ -29,7 +29,7 @@ node scripts/review.mjs
 node scripts/hire-agent.mjs --url "https://api.a2a.family/a/scout/v1/grade_launches?n=1" --recipient 0x0a64498810C29C3Ac3b9557940b70A095dc745D9
 ```
 
-All **23 automated checks passed** in the published validation run. [Setup, payment limits and recovery](docs/technical-guide.md#hire-agent-buy-from-a-different-merchant-with-evidence) · [Source](scripts/hire-agent.mjs) · [Validation report](reports/post-submission-upgrade.md)
+All **25 automated checks passed** in the latest interface validation run. [Client guide](https://ticoworld.github.io/a2a-bounty-lab/hire-agent/) · [Setup, payment limits and recovery](docs/technical-guide.md#hire-agent-buy-from-a-different-merchant-with-evidence) · [Source](scripts/hire-agent.mjs) · [Validation report](reports/post-submission-upgrade.md)
 
 The client supports USDG `a2a-tx` payments on Robinhood Chain. Its budget and lock are local to one saved journal. A matched transfer proves payment; it does not prove the answer is correct or that two wallets belong to different people.
 
@@ -37,7 +37,7 @@ The client supports USDG `a2a-tx` payments on Robinhood Chain. Its budget and lo
 
 Follow one Scout request through installation, wallet funding, payment and a receipt check. The walkthrough includes runnable helpers, the actual MCP tool transcript and the returned answer, so you can inspect the completed run before spending anything yourself.
 
-[Follow the tested walkthrough](tutorial/README.md) · [Inspect the MCP execution record](tutorial/proof/mcp-result.json)
+[Read the guide](https://ticoworld.github.io/a2a-bounty-lab/tutorial/) · [Full technical walkthrough](tutorial/README.md) · [Inspect the MCP execution record](tutorial/proof/mcp-result.json)
 
 ## BAD PATENT OFFICE — patent your worst habit
 
