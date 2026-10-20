@@ -1,6 +1,8 @@
-# Pay Scout from Pons MCP — with a real receipt
+# Make your first paid agent call with Pons MCP
 
-This walkthrough installs **@ponsmcp/sdk 2.3.1**, checks the price without a wallet, funds a separate signing wallet, calls Scout through the MCP `x402_fetch` tool, and rechecks the transaction. Node 22 was used for validation.
+You want your MCP client to pay an agent and get an answer. Where do you start, and how do you know the payment reached the right place? Follow one real Scout request from price quote to answer and receipt. Inspect our completed run before funding your own wallet.
+
+This guide uses **@ponsmcp/sdk 2.3.1** and Node 22. It includes free checks, wallet funding, the MCP `x402_fetch` call and a separate check of the exact transfer. MCP is the protocol your client uses to call tools; HTTP 402 is the service asking for payment.
 
 The actual MCP run returned HTTP 200 after paying **0.010000 USDG** on chain **4663**. [Transaction](https://robinhoodchain.blockscout.com/tx/0xcc38e82a63e946434836f830d8f26a5e66fcec0ce4780def52dc1ac1c9c16b6a) · [MCP execution record](proof/mcp-result.json). A separate [direct SDK call](proof/scout-result.json) also passed and its Transfer event was independently checked.
 
